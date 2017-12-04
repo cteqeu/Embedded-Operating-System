@@ -1,0 +1,16 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port clk_in1 -pg 1 -y 70 -defaultsOSRD
+preplace port d_out -pg 1 -y 70 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace inst WS2812_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace netloc WS2812_0_d_out 1 2 1 N
+preplace netloc clk_in1_1 1 0 1 N
+preplace netloc clk_wiz_clk_out1 1 1 1 N
+levelinfo -pg 1 -360 -250 120 250 -top -20 -bot 260
+",
+}
+{
+   da_clkrst_cnt: "1",
+}
