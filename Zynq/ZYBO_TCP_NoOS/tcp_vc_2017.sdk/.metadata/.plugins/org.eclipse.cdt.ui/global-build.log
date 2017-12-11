@@ -1,0 +1,564 @@
+09:39:12 **** Build of project tcp_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_8/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_8/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+In file included from ../../../include/lwip/ip.h:39:0,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:42:
+lwip-1.4.1/src/core/ipv4/ip.c: In function 'ip_input':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'current_iphdr_src' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/ipv4/ip.c:473:24: note: in expansion of macro 'ip_addr_isany'
+   if (check_ip_src && !ip_addr_isany(&current_iphdr_src))
+                        ^
+In file included from ../../../include/lwip/netif.h:41:0,
+                 from ../../../include/lwip/udp.h:40,
+                 from lwip-1.4.1/src/core/dhcp.c:75:
+lwip-1.4.1/src/core/dhcp.c: In function 'dhcp_bind':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'gw_addr' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/dhcp.c:987:7: note: in expansion of macro 'ip_addr_isany'
+   if (ip_addr_isany(&gw_addr)) {
+       ^
+In file included from ../../../include/xemacps.h:345:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_bd.h:163:62: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+                                                              ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:551:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^
+In file included from ../../../include/xemacps.h:345:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+../../../include/xemacps_bd.h:126:5: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     memset((BdPtr), 0, sizeof(XEmacPs_Bd))
+     ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:550:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+09:41:08 **** Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tcp_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tcp_test.elf  |tee "tcp_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 104740	   3840	2218272	2326852	 238144	tcp_test.elf
+'Finished building: tcp_test.elf.size'
+' '
+09:41:31 **** Clean-only build of configuration Debug for project tcp_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  tcp_test.elf.size  tcp_test.elf
+' '
+09:41:33 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/mainold.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mainold.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mainold.d" -MT"src/mainold.o" -o "src/mainold.o" "../src/mainold.c"
+'Finished building: ../src/mainold.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/mainold.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tcp_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tcp_test.elf  |tee "tcp_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 104740	   3840	2218272	2326852	 238144	tcp_test.elf
+'Finished building: tcp_test.elf.size'
+' '
+09:41:47 **** Clean-only build of configuration Debug for project tcp_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/mainold.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/mainold.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  tcp_test.elf.size  tcp_test.elf
+' '
+09:41:49 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/platform_zynq.o: In function `timer_callback':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+../../tcp_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [tcp_test.elf] Fout 1
+09:42:01 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/platform_zynq.o: In function `timer_callback':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+../../tcp_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [tcp_test.elf] Fout 1
+09:42:19 **** Clean-only build of configuration Debug for project tcp_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  tcp_test.elf.size  tcp_test.elf
+' '
+09:42:20 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/platform_zynq.o: In function `timer_callback':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/platform_zynq.c:133: undefined reference to `echo_netif'
+../../tcp_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [tcp_test.elf] Fout 1
+09:42:33 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'recv_callback':
+../src/main.c:96:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+../src/main.c:95:9: warning: variable 'tempPtr' set but not used [-Wunused-but-set-variable]
+  u32_t *tempPtr;
+         ^~~~~~~
+../src/main.c: In function 'start_application':
+../src/main.c:169:8: warning: variable 'ret_val' set but not used [-Wunused-but-set-variable]
+  err_t ret_val = ERR_BUF;
+        ^~~~~~~
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/main.o: In function `transfer_data':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/main.c:44: multiple definition of `transfer_data'
+./src/echo.o:C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/echo.c:42: first defined here
+./src/main.o: In function `print_app_header':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/main.c:49: multiple definition of `print_app_header'
+./src/echo.o:C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/echo.c:47: first defined here
+./src/main.o: In function `recv_callback':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/main.c:94: multiple definition of `recv_callback'
+./src/echo.o:C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/echo.c:54: first defined here
+./src/main.o: In function `accept_callback':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/main.c:120: multiple definition of `accept_callback'
+./src/echo.o:C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/echo.c:79: first defined here
+./src/main.o: In function `start_application':
+C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/main.c:163: multiple definition of `start_application'
+./src/echo.o:C:\tcp_vc_2017\tcp_vc_2017.sdk\tcp_test\Debug/../src/echo.c:97: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [tcp_test.elf] Fout 1
+09:42:48 **** Clean-only build of configuration Debug for project tcp_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  tcp_test.elf.size  tcp_test.elf
+' '
+09:42:49 **** Auto Build of configuration Debug for project tcp_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'recv_callback':
+../src/main.c:96:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+../src/main.c:95:9: warning: variable 'tempPtr' set but not used [-Wunused-but-set-variable]
+  u32_t *tempPtr;
+         ^~~~~~~
+../src/main.c: In function 'start_application':
+../src/main.c:169:8: warning: variable 'ret_val' set but not used [-Wunused-but-set-variable]
+  err_t ret_val = ERR_BUF;
+        ^~~~~~~
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: tcp_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_test_bsp/ps7_cortexa9_0/lib -o "tcp_test.elf"  ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tcp_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tcp_test.elf  |tee "tcp_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105060	   3840	2218272	2327172	 238284	tcp_test.elf
+'Finished building: tcp_test.elf.size'
+' '

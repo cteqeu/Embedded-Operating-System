@@ -1,0 +1,6 @@
+09:38:13 INFO  : Registering command handlers for SDK TCF services
+09:38:14 INFO  : Launching XSCT server: xsct.bat -interactive C:\tcp_vc_2017\tcp_vc_2017.sdk\temp_xsdb_launch_script.tcl
+09:38:18 INFO  : XSCT server has started successfully.
+09:38:28 INFO  : Successfully done setting XSCT server connection channel  
+09:38:28 INFO  : Successfully done setting SDK workspace  
+09:38:28 INFO  : Processing command line option -hwspec C:/tcp_vc_2017/tcp_vc_2017.sdk/design_1_wrapper.hdf.
