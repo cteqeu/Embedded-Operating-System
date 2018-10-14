@@ -1,0 +1,83 @@
+// /Developed by Vincent Claes/
+// 8/10/2018
+
+
+/*
+Programming sequence
+
+	1) Set timer mode of Timer 0 and Timer 1 to Generate mode (bit MDT in the TCSR set to 0)
+	2) PWMA0 bit in TCSR0 must be set to 1 to enable PWM mode
+	   PWMB0 bit in TCSR1 must be set to 1 to enable PWM mode
+	3) GenerateOut signals must be enabled in TCSR (bit GENT set to 1)
+	   PWM0 signal is generated from GenerateOut signals of Timer 0 and Timer 1
+	4) assertion level of GenerateOut for both timers must be set to Active High
+	5) counter can be set to count up or down
+	6) Setting the PWM period and Duty Factor
+		PWM period is determined by the generate value in the Timer 0 load register (TLR0)
+		PWM high time is determined by the generate value in the Timer 1 load register (TLR1)
+		when counters are configured to count up (UDT = 0)
+			PWM_PERIOD 		= (MAX_COUNT - TLR0 + 2) * AXI_CLOCK_PERIOD
+			PWM_HIGH_TIME 	= (MAX_COUNT - TLR1 + 2) * AXI_CLOCK_PERIOD
+		when counters are configured to count down (UDT = 1)
+			PWM_PERIOD 		= (TLR0 + 2) * AXI_CLOCK_PERIOD
+			PWM_HIGH_TIME 	= (TLR1 + 2) * AXI_CLOCK_PERIOD
+		where MAX_COUNT is the maximum count value for the counter such as 0XFFFFFFFF for a 32 bit counter
+
+*/
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xtmrctr.h"
+#include "math.h"
+#include "pwm_tmrctr.h"
+
+
+#define TMRCTR_DEVICE_ID	XPAR_TMRCTR_0_DEVICE_ID
+#define TIMER_COUNTER_0	 0
+#define TIMER_COUNTER_1  1
+
+
+XTmrCtr TimerCounter;
+
+
+int main()
+{
+	int Status;
+    init_platform();
+
+    print("PWM Example by Vincent Claes\n\r");
+
+	Status = XTmrCtr_Initialize(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XTmrCtr_SelfTest(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XTmrCtr_Initialize(TMRCTR_DEVICE_ID, TIMER_COUNTER_1);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XTmrCtr_SelfTest(TMRCTR_DEVICE_ID, TIMER_COUNTER_1);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+/*
+	// Setting Timers to Generate Mode
+	XTmrCtr_SetOptions(TMRCTR_DEVICE_ID, TIMER_COUNTER_0,XTC_AUTO_RELOAD_OPTION);
+	XTmrCtr_SetOptions(TMRCTR_DEVICE_ID, TIMER_COUNTER_1,XTC_AUTO_RELOAD_OPTION);
+*/
+
+
+
+
+    cleanup_platform();
+    return 0;
+}

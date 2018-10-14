@@ -1,0 +1,42 @@
+/*
+ * PWM Demo application using AXI Timer blocks on Zybo Board
+ * Vincent Claes
+ * vincent[at]cteq.eu
+ * 12/10/2018
+ * thanks to https://github.com/rsi7/ECE_544_project1/tree/master/software/testpwm
+ */
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xtmrctr.h"
+#include "math.h"
+#include "pwm_tmrctr.h"
+
+// int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq)
+// int PWM_SetParams(XTmrCtr *InstancePtr, u32 freq, u32 dutyfactor)
+// int PWM_Start(XTmrCtr *InstancePtr)
+
+XTmrCtr PWMTmr;
+
+int main()
+{
+	int Status;
+	init_platform();
+	xil_printf("PWM Demo Application by Vincent Claes\r\n");
+	xil_printf("=====================================\r\n");
+
+	Status = PWM_Initialize(&PWMTmr, XPAR_AXI_TIMER_0_DEVICE_ID, false, XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ);
+
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	PWM_SetParams(&PWMTmr, 10000, 25);
+	PWM_Start(&PWMTmr);
+
+
+	cleanup_platform();
+    return 0;
+}

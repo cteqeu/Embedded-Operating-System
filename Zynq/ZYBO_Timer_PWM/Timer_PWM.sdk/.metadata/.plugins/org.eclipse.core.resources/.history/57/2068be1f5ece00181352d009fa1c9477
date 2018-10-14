@@ -1,0 +1,21 @@
+/*
+ * PWM Demo application using AXI Timer blocks on Zybo Board
+ * Vincent Claes
+ * vincent[at]cteq.eu
+ * 12/10/2018
+ *
+ */
+
+#include <stdio.h>
+#include "pwm_tmrctr.c"
+
+
+int main()
+{
+	init_platform();
+	xil_printf("PWM Demo Application by Vincent Claes\r\n");
+	xil_printf("=====================================\r\n");
+
+    cleanup_platform();
+    return 0;
+}

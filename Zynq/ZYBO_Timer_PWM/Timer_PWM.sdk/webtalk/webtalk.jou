@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# 
+# Start of session at: Mon Oct  8 13:57:37 2018
+# Process ID: 1704
+# Current directory: C:/FPGA/Timer_PWM/Timer_PWM.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/FPGA/Timer_PWM/Timer_PWM.sdk/webtalk/webtalk.log
+# Journal file: C:/FPGA/Timer_PWM/Timer_PWM.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

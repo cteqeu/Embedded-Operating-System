@@ -1,0 +1,33 @@
+22:59:00 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26548	   1168	  22632	  50348	   c4ac	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+
+22:59:10 Build Finished (took 9s.480ms)
+

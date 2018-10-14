@@ -1,0 +1,240 @@
+//// /Developed by Vincent Claes/
+//// 8/10/2018
+//
+//// Thanks to https://github.com/mwir/544_project2
+///*
+//Programming sequence
+//
+//	1) Set timer mode of Timer 0 and Timer 1 to Generate mode (bit MDT in the TCSR set to 0)
+//	2) PWMA0 bit in TCSR0 must be set to 1 to enable PWM mode
+//	   PWMB0 bit in TCSR1 must be set to 1 to enable PWM mode
+//	3) GenerateOut signals must be enabled in TCSR (bit GENT set to 1)
+//	   PWM0 signal is generated from GenerateOut signals of Timer 0 and Timer 1
+//	4) assertion level of GenerateOut for both timers must be set to Active High
+//	5) counter can be set to count up or down
+//	6) Setting the PWM period and Duty Factor
+//		PWM period is determined by the generate value in the Timer 0 load register (TLR0)
+//		PWM high time is determined by the generate value in the Timer 1 load register (TLR1)
+//		when counters are configured to count up (UDT = 0)
+//			PWM_PERIOD 		= (MAX_COUNT - TLR0 + 2) * AXI_CLOCK_PERIOD
+//			PWM_HIGH_TIME 	= (MAX_COUNT - TLR1 + 2) * AXI_CLOCK_PERIOD
+//		when counters are configured to count down (UDT = 1)
+//			PWM_PERIOD 		= (TLR0 + 2) * AXI_CLOCK_PERIOD
+//			PWM_HIGH_TIME 	= (TLR1 + 2) * AXI_CLOCK_PERIOD
+//		where MAX_COUNT is the maximum count value for the counter such as 0XFFFFFFFF for a 32 bit counter
+//
+//*/
+//
+//#include <stdio.h>
+//#include "platform.h"
+//#include "xil_printf.h"
+//#include "xparameters.h"
+//#include "xtmrctr.h"
+//#include "math.h"
+//#include "pwm_tmrctr.h"
+//
+//
+//#define PWM_FREQUENCY			10000
+//#define DUTY_CYCLE_CHANGE		2
+//
+//
+//#define TMRCTR_DEVICE_ID	XPAR_TMRCTR_0_DEVICE_ID
+//#define TIMER_COUNTER_0	 0
+//#define TIMER_COUNTER_1  1
+//
+//
+//XTmrCtr TimerCounter;
+//
+//
+//int main()
+//{
+//	int Status;
+//    init_platform();
+//
+//    print("PWM Example by Vincent Claes\n\r");
+//
+//	Status = XTmrCtr_Initialize(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+//	if (Status != XST_SUCCESS) {
+//		return XST_FAILURE;
+//	}
+//
+//	Status = XTmrCtr_SelfTest(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+//	if (Status != XST_SUCCESS) {
+//		return XST_FAILURE;
+//	}
+//
+//	Status = XTmrCtr_Initialize(TMRCTR_DEVICE_ID, TIMER_COUNTER_1);
+//	if (Status != XST_SUCCESS) {
+//		return XST_FAILURE;
+//	}
+//
+//	Status = XTmrCtr_SelfTest(TMRCTR_DEVICE_ID, TIMER_COUNTER_1);
+//	if (Status != XST_SUCCESS) {
+//		return XST_FAILURE;
+//	}
+//
+///*
+//	// Setting Timers to Generate Mode
+//	XTmrCtr_SetOptions(TMRCTR_DEVICE_ID, TIMER_COUNTER_0,XTC_AUTO_RELOAD_OPTION);
+//	XTmrCtr_SetOptions(TMRCTR_DEVICE_ID, TIMER_COUNTER_1,XTC_AUTO_RELOAD_OPTION);
+//*/
+//	/*
+//	int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq);
+//	int PWM_Start(XTmrCtr *InstancePtr);
+//	int PWM_Stop(XTmrCtr *InstancePtr);
+//	int PWM_SetParams(XTmrCtr *InstancePtr, u32 freq, u32 dutyfactor);
+//	int PWM_GetParams(XTmrCtr *InstancePtr, u32 *freq, u32 *dutyfactor);
+//*/
+//	Status= PWM_Initialize(&TimerCounter,TMRCTR_DEVICE_ID,true,XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ);
+//	if (Status != XST_SUCCESS) {
+//			return XST_FAILURE;
+//		}
+//	Status = PWM_SetParams(&TimerCounter,10000,70);
+//	if (Status != XST_SUCCESS) {
+//			return XST_FAILURE;
+//		}
+//	Status= PWM_Start(&TimerCounter);
+//	if (Status != XST_SUCCESS) {
+//			return XST_FAILURE;
+//		}
+//	while(1)
+//	{
+//
+//	}
+//
+//
+//
+//
+//
+//
+//    cleanup_platform();
+//    return 0;
+//}
+
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_types.h"
+#include "xtmrctr.h"
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_exception.h"
+#include "xscugic.h"
+#include <stdbool.h>
+
+#define XTC_CSR_ENABLE_PWM_MASK		0x00000200
+#define XTC_CSR_EXT_GENERATE_MASK	0x00000004
+
+XScuGic InterruptController; /* Instance of the Interrupt Controller */
+static XScuGic_Config *GicConfig;/* The configuration parameters of the controller */
+void Timer_InterruptHandler(void *data, u8 TmrCtrNumber)
+{
+	print(" Interrupt acknowledged\n\r");
+}
+void Timer_InterruptHandler2(void *data, u8 TmrCtrNumber)
+{
+	print(" Interrupt 2 acknowledged\n\r");
+}
+
+int SetUpInterruptSystem(XScuGic *XScuGicInstancePtr)
+{
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			(Xil_ExceptionHandler) XScuGic_InterruptHandler,
+			XScuGicInstancePtr);
+	Xil_ExceptionEnable();
+	return XST_SUCCESS;
+}
+int ScuGicInterrupt_Init(u16 DeviceId,XTmrCtr *TimerInstancePtr, XTmrCtr *TimerInstancePtr2)
+{
+	int Status;
+	GicConfig = XScuGic_LookupConfig(DeviceId);
+	if (NULL == GicConfig) {
+		return XST_FAILURE;
+	}
+	Status = XScuGic_CfgInitialize(&InterruptController, GicConfig,
+			GicConfig->CpuBaseAddress);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Status = SetUpInterruptSystem(&InterruptController);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Status = XScuGic_Connect(&InterruptController,
+			61U,
+			(Xil_ExceptionHandler)XTmrCtr_InterruptHandler,
+			(void *)TimerInstancePtr);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XScuGic_Enable(&InterruptController, 61U);
+	return XST_SUCCESS;
+}
+int main()
+{
+
+	XTmrCtr TimerInstancePtr;
+	XTmrCtr TimerInstancePtr2;
+	int xStatus;
+
+	print("##### Application Starts #####\n\r");
+	print("\r\n");
+	xStatus = XTmrCtr_Initialize(&TimerInstancePtr,XPAR_AXI_TIMER_0_DEVICE_ID);
+	if(XST_SUCCESS != xStatus)
+		print("TIMER INIT FAILED \n\r");
+	xStatus = XTmrCtr_Initialize(&TimerInstancePtr2,XPAR_AXI_TIMER_0_DEVICE_ID);
+	if(XST_SUCCESS != xStatus)
+		print("TIMER INIT FAILED \n\r");
+
+	XTmrCtr_SetHandler(&TimerInstancePtr,
+			Timer_InterruptHandler,
+			&TimerInstancePtr);
+
+	XTmrCtr_SetHandler(&TimerInstancePtr2,
+			Timer_InterruptHandler2,
+			&TimerInstancePtr2);
+
+	//enable interrupt & auto reload
+	XTmrCtr_SetOptions(&TimerInstancePtr,
+			0,
+			(XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_DOWN_COUNT_OPTION));
+
+	u32 CounterControlReg = Xil_In32(TimerInstancePtr.BaseAddress + XTmrCtr_Offsets[0] + XTC_TCSR_OFFSET);
+	CounterControlReg = CounterControlReg | XTC_CSR_ENABLE_PWM_MASK | XTC_CSR_EXT_GENERATE_MASK;
+	Xil_Out32(TimerInstancePtr.BaseAddress + XTmrCtr_Offsets[0] + XTC_TCSR_OFFSET, CounterControlReg);
+
+	XTmrCtr_SetOptions(&TimerInstancePtr2,
+			1,
+			(XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION | XTC_DOWN_COUNT_OPTION));
+
+	CounterControlReg = Xil_In32(TimerInstancePtr2.BaseAddress + XTmrCtr_Offsets[1] + XTC_TCSR_OFFSET);
+	CounterControlReg = CounterControlReg | XTC_CSR_ENABLE_PWM_MASK | XTC_CSR_EXT_GENERATE_MASK;
+	Xil_Out32(TimerInstancePtr2.BaseAddress + XTmrCtr_Offsets[1] + XTC_TCSR_OFFSET, CounterControlReg);
+
+	XTmrCtr_SetResetValue(&TimerInstancePtr,
+			0, //Change with generic value
+			0x5f5e100);
+		XTmrCtr_SetResetValue(&TimerInstancePtr2,
+				1, //Change with generic value
+				0x1f78a40);
+
+	xStatus=ScuGicInterrupt_Init(XPAR_PS7_SCUGIC_0_DEVICE_ID,&TimerInstancePtr,&TimerInstancePtr2);
+	if(XST_SUCCESS != xStatus)
+		print(" :( SCUGIC INIT FAILED \n\r");
+
+	XTmrCtr_Start(&TimerInstancePtr,0);
+	print("timer start \n\r");
+	XTmrCtr_Start(&TimerInstancePtr2,1);
+	print("timer 2 start \n\r");
+
+	print("Wait for the Timer interrupt to tigger \r\n");
+	print("########################################\r\n");
+	print(" \r\n");
+
+	while(1)
+	{
+	}
+	cleanup_platform();
+	return 0;
+}

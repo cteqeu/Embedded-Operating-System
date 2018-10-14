@@ -1,0 +1,1651 @@
+09:56:49 **** Build of project AXI_TIMER_PWM_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:30:20 **** Build of project Timer_PWM_AXI_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:32:16 **** Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:33:23 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:1:3: error: invalid preprocessing directive #Developed
+ # Developed by Vincent Claes
+   ^~~~~~~~~
+make: *** [src/helloworld.o] Fout 1
+10:33:27 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:34:31 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:31:10: fatal error: xtmcrctr.h: No such file or directory
+ #include "xtmcrctr.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Fout 1
+10:34:38 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:32:9: error: #include expects "FILENAME" or <FILENAME>
+ #include
+         ^
+make: *** [src/helloworld.o] Fout 1
+10:34:48 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:35:05 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:35:29 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22616	  43112	   a868	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:35:56 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:14: warning: implicit declaration of function 'TmrCtrPolledExample' [-Wimplicit-function-declaration]
+     Status = TmrCtrPolledExample(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+              ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:43:52: error: 'TIMER_COUNTER_0' undeclared (first use in this function); did you mean '__COUNTER__'?
+     Status = TmrCtrPolledExample(TMRCTR_DEVICE_ID, TIMER_COUNTER_0);
+                                                    ^~~~~~~~~~~~~~~
+                                                    __COUNTER__
+../src/helloworld.c:43:52: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Fout 1
+10:36:56 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19368	   1144	  22616	  43128	   a878	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:37:19 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:46:30: error: 'TmrCtrInstancePtr' undeclared (first use in this function); did you mean 'XTmrCtr_SetHandler'?
+  Status = XTmrCtr_Initialize(TmrCtrInstancePtr, DeviceId);
+                              ^~~~~~~~~~~~~~~~~
+                              XTmrCtr_SetHandler
+../src/helloworld.c:46:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:46:49: error: 'DeviceId' undeclared (first use in this function)
+  Status = XTmrCtr_Initialize(TmrCtrInstancePtr, DeviceId);
+                                                 ^~~~~~~~
+make: *** [src/helloworld.o] Fout 1
+10:37:54 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:46:30: error: 'TmrCtrInstancePtr' undeclared (first use in this function); did you mean 'XTmrCtr_SetHandler'?
+  Status = XTmrCtr_Initialize(TmrCtrInstancePtr, TIMER_COUNTER_0);
+                              ^~~~~~~~~~~~~~~~~
+                              XTmrCtr_SetHandler
+../src/helloworld.c:46:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:46:49: error: 'TIMER_COUNTER_0' undeclared (first use in this function); did you mean '__COUNTER__'?
+  Status = XTmrCtr_Initialize(TmrCtrInstancePtr, TIMER_COUNTER_0);
+                                                 ^~~~~~~~~~~~~~~
+                                                 __COUNTER__
+../src/helloworld.c:51:47: error: 'TmrCtrNumber' undeclared (first use in this function); did you mean 'XTmrCtr_Reset'?
+  Status = XTmrCtr_SelfTest(TmrCtrInstancePtr, TmrCtrNumber);
+                                               ^~~~~~~~~~~~
+                                               XTmrCtr_Reset
+make: *** [src/helloworld.o] Fout 1
+10:38:18 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:49:30: error: 'TmrCtrInstancePtr' undeclared (first use in this function); did you mean 'XTmrCtr_SetHandler'?
+  Status = XTmrCtr_Initialize(TmrCtrInstancePtr, TIMER_COUNTER_0);
+                              ^~~~~~~~~~~~~~~~~
+                              XTmrCtr_SetHandler
+../src/helloworld.c:49:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:54:47: error: 'TmrCtrNumber' undeclared (first use in this function); did you mean 'XTmrCtr_Reset'?
+  Status = XTmrCtr_SelfTest(TmrCtrInstancePtr, TmrCtrNumber);
+                                               ^~~~~~~~~~~~
+                                               XTmrCtr_Reset
+make: *** [src/helloworld.o] Fout 1
+10:38:37 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:54:28: error: 'TmrCtrInstancePtr' undeclared (first use in this function); did you mean 'XTmrCtr_SetHandler'?
+  Status = XTmrCtr_SelfTest(TmrCtrInstancePtr, TmrCtrNumber);
+                            ^~~~~~~~~~~~~~~~~
+                            XTmrCtr_SetHandler
+../src/helloworld.c:54:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:54:47: error: 'TmrCtrNumber' undeclared (first use in this function); did you mean 'XTmrCtr_Reset'?
+  Status = XTmrCtr_SelfTest(TmrCtrInstancePtr, TmrCtrNumber);
+                                               ^~~~~~~~~~~~
+                                               XTmrCtr_Reset
+make: *** [src/helloworld.o] Fout 1
+10:38:51 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21964	   1160	  22616	  45740	   b2ac	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:39:00 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22036	   1160	  22616	  45812	   b2f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:39:06 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:63: error: expected ')' before ';' token
+  Status = XTmrCtr_Initialize(TMRCTR_DEVICE_ID, TIMER_COUNTER_1;
+                                                               ^
+../src/helloworld.c:74:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/helloworld.o] Fout 1
+10:40:18 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22036	   1160	  22616	  45812	   b2f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:40:56 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22036	   1160	  22616	  45812	   b2f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+10:41:12 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:71:21: error: 'TmrCtrInstancePtr' undeclared (first use in this function); did you mean 'XTmrCtr_SetHandler'?
+  XTmrCtr_SetOptions(TmrCtrInstancePtr, TmrCtrNumber,XTC_AUTO_RELOAD_OPTION);
+                     ^~~~~~~~~~~~~~~~~
+                     XTmrCtr_SetHandler
+../src/helloworld.c:71:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:71:40: error: 'TmrCtrNumber' undeclared (first use in this function); did you mean 'XTmrCtr_Reset'?
+  XTmrCtr_SetOptions(TmrCtrInstancePtr, TmrCtrNumber,XTC_AUTO_RELOAD_OPTION);
+                                        ^~~~~~~~~~~~
+                                        XTmrCtr_Reset
+make: *** [src/helloworld.o] Fout 1
+10:41:39 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22572	   1160	  22616	  46348	   b50c	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+12:30:05 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22572	   1160	  22616	  46348	   b50c	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+12:30:20 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+../src/pwm_tmrctr.c:22:10: fatal error: pwm_tmrctr.h: No such file or directory
+ #include "pwm_tmrctr.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/pwm_tmrctr.o] Fout 1
+12:30:53 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+../src/pwm_tmrctr.c:62:20: error: unknown type name 'XTmrCtr'
+ int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq)
+                    ^~~~~~~
+../src/pwm_tmrctr.c:62:42: error: unknown type name 'u16'
+ int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq)
+                                          ^~~
+../src/pwm_tmrctr.c:62:56: error: unknown type name 'bool'; did you mean '_Bool'?
+ int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq)
+                                                        ^~~~
+                                                        _Bool
+../src/pwm_tmrctr.c:62:79: error: unknown type name 'u32'
+ int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq)
+                                                                               ^~~
+../src/pwm_tmrctr.c:115:15: error: unknown type name 'XTmrCtr'
+ int PWM_Start(XTmrCtr *InstancePtr)
+               ^~~~~~~
+../src/pwm_tmrctr.c:159:14: error: unknown type name 'XTmrCtr'
+ int PWM_Stop(XTmrCtr *InstancePtr)
+              ^~~~~~~
+../src/pwm_tmrctr.c:201:19: error: unknown type name 'XTmrCtr'
+ int PWM_SetParams(XTmrCtr *InstancePtr, u32 freq, u32 dutyfactor)
+                   ^~~~~~~
+../src/pwm_tmrctr.c:201:41: error: unknown type name 'u32'
+ int PWM_SetParams(XTmrCtr *InstancePtr, u32 freq, u32 dutyfactor)
+                                         ^~~
+../src/pwm_tmrctr.c:201:51: error: unknown type name 'u32'
+ int PWM_SetParams(XTmrCtr *InstancePtr, u32 freq, u32 dutyfactor)
+                                                   ^~~
+../src/pwm_tmrctr.c:273:19: error: unknown type name 'XTmrCtr'
+ int PWM_GetParams(XTmrCtr *InstancePtr, u32 *freq, u32 *dutyfactor)
+                   ^~~~~~~
+../src/pwm_tmrctr.c:273:41: error: unknown type name 'u32'
+ int PWM_GetParams(XTmrCtr *InstancePtr, u32 *freq, u32 *dutyfactor)
+                                         ^~~
+../src/pwm_tmrctr.c:273:52: error: unknown type name 'u32'
+ int PWM_GetParams(XTmrCtr *InstancePtr, u32 *freq, u32 *dutyfactor)
+                                                    ^~~
+make: *** [src/pwm_tmrctr.o] Fout 1
+12:30:56 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+12:31:01 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:32:30 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:33:20 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:35:58 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o  ./src/helloworld.d ./src/platform.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+13:36:00 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lxilisf
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:37:54 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o  ./src/helloworld.d ./src/platform.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+13:37:55 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:46:20 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:46:31 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:305: undefined reference to `lroundf'
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:306: undefined reference to `lroundf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+13:52:32 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o  ./src/helloworld.d ./src/platform.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+13:52:33 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24540	   1160	  22632	  48332	   bccc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+16:22:21 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o  ./src/helloworld.d ./src/platform.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+16:22:23 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23988	   1160	  22632	  47780	   baa4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+16:27:26 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:88:48: error: 'True' undeclared (first use in this function); did you mean 'true'?
+  PWM_Initialize(&TimerCounter,TMRCTR_DEVICE_ID,True, )
+                                                ^~~~
+                                                true
+../src/helloworld.c:88:48: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:88:54: error: expected expression before ')' token
+  PWM_Initialize(&TimerCounter,TMRCTR_DEVICE_ID,True, )
+                                                      ^
+make: *** [src/helloworld.o] Fout 1
+16:29:49 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:88:48: error: 'True' undeclared (first use in this function); did you mean 'true'?
+  PWM_Initialize(&TimerCounter,TMRCTR_DEVICE_ID,True,false);
+                                                ^~~~
+                                                true
+../src/helloworld.c:88:48: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Fout 1
+16:30:02 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:88:2: error: too few arguments to function 'PWM_Initialize'
+  PWM_Initialize(&TimerCounter,TMRCTR_DEVICE_ID,false);
+  ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:34:0:
+../src/pwm_tmrctr.h:52:5: note: declared here
+ int PWM_Initialize(XTmrCtr *InstancePtr, u16 DeviceId, bool EnableInterrupts, u32 clkfreq);
+     ^~~~~~~~~~~~~~
+make: *** [src/helloworld.o] Fout 1
+16:31:41 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24012	   1160	  22632	  47804	   babc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+16:46:06 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24028	   1160	  22632	  47820	   bacc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+16:52:01 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:92:8: error: expected expression before ')' token
+  while()
+        ^
+make: *** [src/helloworld.o] Fout 1
+16:52:18 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:92:8: error: expected expression before ')' token
+  while()
+        ^
+make: *** [src/helloworld.o] Fout 1
+16:52:28 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:51: error: stray '\265' in program
+  PWM_SetParams(&TimerCounter,TMRCTR_DEVICE_ID,70);µ
+                                                   ^
+make: *** [src/helloworld.o] Fout 1
+16:52:33 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24036	   1160	  22632	  47828	   bad4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+21:35:34 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:42:49 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:43:47 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:52:00 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24044	   1160	  22632	  47836	   badc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+21:52:10 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:54:59 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24044	   1160	  22632	  47836	   badc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+21:55:09 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:57:23 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24044	   1160	  22632	  47836	   badc	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+21:57:33 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:58:37 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+21:59:57 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24116	   1160	  22632	  47908	   bb24	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:00:09 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:12:26 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28748	   2736	  22600	  54084	   d344	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:12:41 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:21:32 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'IntcSetup':
+../src/helloworld.c:249:25: error: 'XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_TIMER_0_DEVICE_ID'?
+ #define TMR_INTR_ID     XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
+                         ^
+../src/helloworld.c:249:25: note: in definition of macro 'TMR_INTR_ID'
+ #define TMR_INTR_ID     XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:249:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define TMR_INTR_ID     XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
+                         ^
+../src/helloworld.c:249:25: note: in definition of macro 'TMR_INTR_ID'
+ #define TMR_INTR_ID     XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] Fout 1
+22:21:55 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:22:06 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:23:24 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:23:32 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:25:28 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:25:38 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:26:06 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:27:21 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/pwm_tmrctr.o  ./src/helloworld.d ./src/platform.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+22:27:23 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+22:27:34 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+22:28:56 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+../src/pwm.c: In function 'main':
+../src/pwm.c:106:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while(1);
+     ^~~~~
+../src/pwm.c:108:6: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:29:49 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28092	   2736	  22664	  53492	   d0f4	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:32:24 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+../src/pwm.c: In function 'main':
+../src/pwm.c:15:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/pwm.c:19:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pwm_tmrctr.o: In function `PWM_Initialize':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:63: multiple definition of `PWM_Initialize'
+./src/pwm.o:C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:63: first defined here
+./src/pwm_tmrctr.o: In function `PWM_Start':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:116: multiple definition of `PWM_Start'
+./src/pwm.o:C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:116: first defined here
+./src/pwm_tmrctr.o: In function `PWM_Stop':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:160: multiple definition of `PWM_Stop'
+./src/pwm.o:C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:160: first defined here
+./src/pwm_tmrctr.o: In function `PWM_SetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:202: multiple definition of `PWM_SetParams'
+./src/pwm.o:C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:202: first defined here
+./src/pwm_tmrctr.o: In function `PWM_GetParams':
+C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:274: multiple definition of `PWM_GetParams'
+./src/pwm.o:C:\FPGA\Timer_PWM\Timer_PWM.sdk\Timer_PWM_AXI\Debug/../src/pwm_tmrctr.c:274: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Timer_PWM_AXI.elf] Fout 1
+22:33:49 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26292	   1168	  22584	  50044	   c37c	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:47:59 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+../src/pwm.c: In function 'main':
+../src/pwm.c:30:27: error: 'PWMTimerInst' undeclared (first use in this function); did you mean 'PWMTmr'?
+  Status = PWM_Initialize(&PWMTimerInst, PWM_TIMER_DEVICE_ID, false, AXI_CLOCK_FREQ_HZ);
+                           ^~~~~~~~~~~~
+                           PWMTmr
+../src/pwm.c:30:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/pwm.c:30:41: error: 'PWM_TIMER_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_SCUTIMER_DEVICE_ID'?
+  Status = PWM_Initialize(&PWMTimerInst, PWM_TIMER_DEVICE_ID, false, AXI_CLOCK_FREQ_HZ);
+                                         ^~~~~~~~~~~~~~~~~~~
+                                         XPAR_SCUTIMER_DEVICE_ID
+../src/pwm.c:30:69: error: 'AXI_CLOCK_FREQ_HZ' undeclared (first use in this function)
+  Status = PWM_Initialize(&PWMTimerInst, PWM_TIMER_DEVICE_ID, false, AXI_CLOCK_FREQ_HZ);
+                                                                     ^~~~~~~~~~~~~~~~~
+../src/pwm.c:25:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+make: *** [src/pwm.o] Fout 1
+22:49:52 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+../src/pwm.c: In function 'main':
+../src/pwm.c:30:70: error: 'AXI_CLOCK_FREQ_HZ' undeclared (first use in this function)
+  Status = PWM_Initialize(&PWMTmr, XPAR_AXI_TIMER_0_DEVICE_ID, false, AXI_CLOCK_FREQ_HZ);
+                                                                      ^~~~~~~~~~~~~~~~~
+../src/pwm.c:30:70: note: each undeclared identifier is reported only once for each function it appears in
+../src/pwm.c:25:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+make: *** [src/pwm.o] Fout 1
+22:50:13 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+../src/pwm.c: In function 'main':
+../src/pwm.c:25:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26356	   1168	  22632	  50156	   c3ec	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:50:44 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26356	   1168	  22632	  50156	   c3ec	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:52:12 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26420	   1168	  22632	  50220	   c42c	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:52:24 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26420	   1168	  22632	  50220	   c42c	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:52:31 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:55:21 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26548	   1168	  22632	  50348	   c4ac	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '
+22:55:30 **** Incremental Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+22:58:58 **** Clean-only build of configuration Debug for project Timer_PWM_AXI ****
+make clean 
+rm -rf  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o  ./src/platform.d ./src/pwm.d ./src/pwm_tmrctr.d  Timer_PWM_AXI.elf.size  Timer_PWM_AXI.elf
+' '
+22:59:00 **** Auto Build of configuration Debug for project Timer_PWM_AXI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/pwm.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm.d" -MT"src/pwm.o" -o "src/pwm.o" "../src/pwm.c"
+'Finished building: ../src/pwm.c'
+' '
+'Building file: ../src/pwm_tmrctr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pwm_tmrctr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pwm_tmrctr.d" -MT"src/pwm_tmrctr.o" -o "src/pwm_tmrctr.o" "../src/pwm_tmrctr.c"
+'Finished building: ../src/pwm_tmrctr.c'
+' '
+'Building target: Timer_PWM_AXI.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Timer_PWM_AXI_bsp/ps7_cortexa9_0/lib -o "Timer_PWM_AXI.elf"  ./src/platform.o ./src/pwm.o ./src/pwm_tmrctr.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Timer_PWM_AXI.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Timer_PWM_AXI.elf  |tee "Timer_PWM_AXI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26548	   1168	  22632	  50348	   c4ac	Timer_PWM_AXI.elf
+'Finished building: Timer_PWM_AXI.elf.size'
+' '

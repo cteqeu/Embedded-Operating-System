@@ -1,0 +1,111 @@
+/*
+ * PWM Demo application using AXI Timer blocks on Zybo Board
+ * Vincent Claes
+ * vincent[at]cteq.eu
+ * 12/10/2018
+ *
+ */
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xtmrctr.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+
+// Timer variables
+#define TMR_INTR_ID     XPAR_TMRCTR_0_DEVICE_ID
+#define PWM_CONFIG      ((1<<9) | (1<<2) | (1<<1))
+#define TMR0_RELOAD     30000
+#define TMR1_RELOAD     10000
+
+int status;
+u32 control_reg;
+u32 pwm;
+s8 step = 4;
+
+// Structures
+XTmrCtr Timer;
+XTmrCtr_Config *TimerConPtr;
+XScuGic Intc;
+XScuGic_Config *IntcConPtr;
+
+void Timer0Callback(void *Inst)
+{
+    // Set duty cycle
+    pwm += step;
+    if(pwm >= TMR0_RELOAD || pwm == 0)
+    {
+        step = -step;
+    }
+
+    // Load duty cycle into Timer 1
+    XTmrCtr_SetResetValue(&Timer, 1, pwm);
+
+    // Clear interrupt flag (bit 8 in the Control & Status reg)
+    control_reg = XTmrCtr_GetControlStatusReg(TimerConPtr->BaseAddress, 0) | (1<<8);
+    XTmrCtr_SetControlStatusReg(TimerConPtr->BaseAddress, 0, control_reg);
+}
+void TimerSetup(void)
+{
+    // Initialize timer
+    TimerConPtr = XTmrCtr_LookupConfig(XPAR_AXI_TIMER_0_DEVICE_ID);
+    XTmrCtr_CfgInitialize(&Timer, TimerConPtr, TimerConPtr->BaseAddress);
+
+    // Configure timers for PWM usage
+    control_reg = XTmrCtr_GetControlStatusReg(TimerConPtr->BaseAddress, 0) | PWM_CONFIG;
+    XTmrCtr_SetControlStatusReg(TimerConPtr->BaseAddress, 0, control_reg);
+    control_reg = XTmrCtr_GetControlStatusReg(TimerConPtr->BaseAddress, 1) | PWM_CONFIG;
+    XTmrCtr_SetControlStatusReg(TimerConPtr->BaseAddress, 1, control_reg);
+
+    // Set starting values for timers
+    XTmrCtr_SetResetValue(&Timer, 0, TMR0_RELOAD);
+    XTmrCtr_SetResetValue(&Timer, 1, TMR1_RELOAD);
+
+    // Assign function Timer0Callback to be called when interrupt occurs
+    XTmrCtr_SetHandler(&Timer, (XTmrCtr_Handler)Timer0Callback, &Timer);
+
+    // Enable interrupts for Timer 0 only
+    XTmrCtr_EnableIntr(TimerConPtr->BaseAddress, 0);
+}
+int IntcSetup(void)
+{
+    // Enable exceptions in the ARM
+    Xil_ExceptionEnable();
+
+    // Configure Interrupt Controller
+    IntcConPtr = XScuGic_LookupConfig(XPAR_PS7_SCUGIC_0_DEVICE_ID);
+    status = XScuGic_CfgInitialize(&Intc, IntcConPtr, IntcConPtr->CpuBaseAddress);
+    if(status != XST_SUCCESS)
+    {
+        return XST_FAILURE;
+    }
+
+    // Connect to hardware
+    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler) XScuGic_InterruptHandler, &Intc);
+    XScuGic_Connect(&Intc, TMR_INTR_ID, (Xil_ExceptionHandler) Timer0Callback, &Timer);
+    XScuGic_Enable(&Intc, TMR_INTR_ID);
+    return XST_SUCCESS;
+}
+int main()
+{
+    init_platform();
+
+    TimerSetup();
+
+    IntcSetup();
+
+    print("Hello World!\n\r");
+
+    XTmrCtr_Start(&Timer, 0);
+
+    XTmrCtr_Start(&Timer, 1);
+
+    print("Timers started.\n\r");
+
+    while(1);
+
+    	cleanup_platform();
+
+    return 0;
+}
