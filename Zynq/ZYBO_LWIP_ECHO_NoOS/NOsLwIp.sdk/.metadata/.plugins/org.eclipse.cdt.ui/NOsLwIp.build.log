@@ -1,0 +1,8 @@
+10:21:42 **** Incremental Build of configuration Debug for project NOsLwIp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+
+10:21:44 Build Finished (took 2s.308ms)
+
