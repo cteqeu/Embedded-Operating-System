@@ -1,0 +1,17 @@
+14:15:59 **** Auto Build of configuration Debug for project ZYBO_UDP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ZYBO_UDP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'recv_callback':
+../src/main.c:119:2: error: 'tempPtr' undeclared (first use in this function); did you mean 'memp_t'?
+  tempPtr = (u32_t *)p->payload;
+  ^~~~~~~
+  memp_t
+../src/main.c:119:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Fout 1
+
+14:16:01 Build Finished (took 2s.406ms)
+

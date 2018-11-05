@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# 
+# Start of session at: Mon Nov  5 12:54:13 2018
+# Process ID: 16792
+# Current directory: D:/FPGA/ZYBO_UDP/SDK2/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/FPGA/ZYBO_UDP/SDK2/webtalk/webtalk.log
+# Journal file: D:/FPGA/ZYBO_UDP/SDK2/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
