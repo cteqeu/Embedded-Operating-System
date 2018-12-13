@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xplatform_info.h"
+#include "xspips.h"
+#include "font.h"
+#include "lcd8x8rgb.h"
+#include "sleep.h"
+#include "xil_types.h"
+
+#define MATRIX_SPI_SELECT_1	0x01
+#define MATRIX_SPI_SELECT_0	0x00
+
+#define SPI_DEVICE_ID		XPAR_XSPIPS_0_DEVICE_ID
+
+#ifndef TESTAPP_GEN
+static XSpiPs SpiInstance;
+#endif
+
+// SPI	= MIO10 MIO11 MIO12
+// SS[0] = MIO13
+
+#define BUFFER_SIZE 24
+
+typedef u8 VideoBuffer[BUFFER_SIZE];
+u8 WriteBuffer[BUFFER_SIZE];
+
+
+int main()
+{
+	XSpiPs_Config *SpiConfig;
+	u16 SpiDeviceId= SPI_DEVICE_ID;
+	//XSpiPs *SpiInstancePtr;
+	int Status;
+    init_platform();
+
+    //SpiInstancePtr = &SpiInstance;
+
+    xil_printf("Demo Appplication by Vincent Claes\n\r");
+    /*
+    	 * Initialize the SPI driver so that it's ready to use
+    	 */
+    	SpiConfig = XSpiPs_LookupConfig(SpiDeviceId);
+    	if (NULL == SpiConfig) {
+    		return XST_FAILURE;
+    	}
+
+    	Status = XSpiPs_CfgInitialize((&SpiInstance), SpiConfig,
+    					SpiConfig->BaseAddress);
+    	if (Status != XST_SUCCESS) {
+    		return XST_FAILURE;
+    	}
+
+    	 XSpiPs_SetOptions((&SpiInstance), XSPIPS_MASTER_OPTION | XSPIPS_CLK_PHASE_1_OPTION | XSPIPS_FORCE_SSELECT_OPTION);
+
+    	 // Zynq uses clock of 166.66666 => SPI Clock if prescaler is 256 => 651KHz
+
+    	 // I Changed the PS SPI CLock to 15.652 MHz
+    	 // So changing the clock prescaler to 64 => 245kHz
+    	 XSpiPs_SetClkPrescaler((&SpiInstance), XSPIPS_CLK_PRESCALE_64);
+
+
+    	WriteBuffer[0]	=0b11100000; // R first row
+    	WriteBuffer[1]	=0b00011100; // G first row
+    	WriteBuffer[2]	=0b00000011; // B first row
+    	WriteBuffer[3]	=0b00000000; //...
+    	WriteBuffer[4]	=0b00000000;
+    	WriteBuffer[5]	=0b00000000;
+    	WriteBuffer[6]	=0b00000000;
+    	WriteBuffer[7]	=0b00000000;
+    	WriteBuffer[8]	=0b00000000;
+    	WriteBuffer[9]	=0b00000000;
+    	WriteBuffer[10]	=0b00000000;
+    	WriteBuffer[11]	=0b00000000;
+    	WriteBuffer[12]	=0b00000000;
+    	WriteBuffer[13]	=0b00000000;
+    	WriteBuffer[14]	=0b00000000;
+    	WriteBuffer[15]	=0b00000000;
+    	WriteBuffer[16]	=0b00000000;
+    	WriteBuffer[17]	=0b00000000;
+    	WriteBuffer[18]	=0b00000000;
+    	WriteBuffer[19]	=0b00000000;
+    	WriteBuffer[20]	=0b00000000;
+    	WriteBuffer[21]	=0b00000000;
+    	WriteBuffer[22]	=0b00000000;
+    	WriteBuffer[23]	=0b00000000;
+
+    	XSpiPs_Enable((&SpiInstance));
+    	usleep_A9(5);
+    	u32 ChipSelect = MATRIX_SPI_SELECT_0;
+    	XSpiPs_SetSlaveSelect((&SpiInstance), ChipSelect);
+    	usleep_A9(10);
+			for(int i=0; i<8; i++){
+				XSpiPs_PolledTransfer((&SpiInstance), WriteBuffer, NULL, sizeof(WriteBuffer));
+				 usleep_A9(50);
+			}
+    	ChipSelect = MATRIX_SPI_SELECT_1;
+    	XSpiPs_SetSlaveSelect((&SpiInstance), ChipSelect);
+    	xil_printf("After\n\r");
+    	cleanup_platform();
+    return 0;
+}

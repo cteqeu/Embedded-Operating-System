@@ -1,0 +1,37 @@
+/*
+  * MOD-LED8x8RGB Arduino Drawing Library
+  * color - drawing color
+  * drawPixel(x,y) draws drawPixel at X,Y coordinates (1,1) is upper left corner
+  * drawLine(x1,y1,x2,y2) draws line
+  * drawRectangle(x1,y1,x2,y2) draws rectangle
+  * drawSolidRectangle(x1,y1,x2,y2) draws solid rectangle
+  * drawElipse(x,y,rx,ry) draws elipse
+  * drawCircle(x,y,r) draws circle
+  * drawTriangle(x1,y1,x2,y2,x3,y3) draws triangle
+  * drawChar(c)  - draws char at cX, cY and updates cX, cY
+  * drawString(s) - draws string at cX, cY and updates cX, cY
+  * lScroll() - scrolls all screen left 1 column
+  * rScroll() - scrolls all screen right 1 column
+  * scrollCharLeft(c) - scrolls one character from the bottom right matrix to the left
+  * scrollCharRight(c) - scrolls one character from the upper left matrix to the right
+  *scrollString( c, dir) - scrolls string left or right
+  *
+*/
+#include "stdlib.h"
+#include "sleep.h"
+#include "xspips.h"
+#include "xparameters.h"
+#include "xstatus.h"
+
+
+
+//typedef u8 VideoBuffer[BUFFER_SIZE];
+//u8 VideoBuffer[BUFFER_SIZE];
+
+//----------------------------------------------------------------------------------------------
+
+void Init(){
+
+}
+
+

@@ -1,0 +1,395 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 7236
+License: Customer
+
+Current time: 	Fri Nov 16 13:41:10 CET 2018
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 116 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	20002890
+User home directory: C:/Users/20002890
+User working directory: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc
+User country: 	BE
+User language: 	nl
+User locale: 	nl_BE
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/20002890/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/20002890/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/20002890/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/vivado.log
+Vivado journal file location: 	D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/vivado.jou
+Engine tmp dir: 	D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/.Xil/Vivado-7236-5CG64360W4
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 493 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 64 MB (+64828kb) [00:00:11]
+// [Engine Memory]: 463 MB (+334420kb) [00:00:11]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aL (ck): Older Project Version: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: D:\FPGA\hardware\Olimex_RGB_Matrix\matrix_vc\matrix_vc.xpr. Version: Vivado v2016.4 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (ck)
+// Tcl Message: open_project D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 68 MB (+186kb) [00:00:15]
+// [Engine Memory]: 493 MB (+6386kb) [00:00:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 493 MB. GUI used memory: 38 MB. Current time: 11/16/18 1:41:13 PM CET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 546 MB (+29558kb) [00:00:20]
+// [Engine Memory]: 587 MB (+15073kb) [00:00:22]
+// Tcl Message: open_project D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/20002890/matrix_vc' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// Tcl Message: INFO: [Project 1-230] Project 'matrix_vc.xpr' upgraded for this version of Vivado. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 795.379 ; gain = 85.535 
+// Project name: matrix_vc; location: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc; part: xc7z010clg400-1
+// Elapsed time: 11 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// al (ck): Project Upgraded: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, "Report IP Status"); // a (al)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Project Upgraded"); // al (ck)
+// Tcl Message: report_ip_status -name ip_status  
+// bx (ck):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (ck)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, ck)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Upgrade IP : addNotify
+// Tcl Message: upgrade_ip -vlnv xilinx.com:ip:processing_system7:5.5 [get_ips  design_1_processing_system7_0_0] -log ip_upgrade.log 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Successfully read diagram <design_1> from BD file <D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd> 
+// [Engine Memory]: 632 MB (+16640kb) [00:00:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 43 MB. Current time: 11/16/18 1:41:43 PM CET
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 689 MB (+26256kb) [00:00:49]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: Upgrading 'D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// [GUI Memory]: 72 MB (+619kb) [00:00:50]
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [PS7-6] Configuring Board Preset part0. Please wait ...... 
+// [GUI Memory]: 76 MB (+1320kb) [00:00:58]
+// [Engine Memory]: 730 MB (+6249kb) [00:00:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 730 MB. GUI used memory: 47 MB. Current time: 11/16/18 1:41:58 PM CET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 3 to revision 6 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 936.273 ; gain = 140.895 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_processing_system7_0_0] -no_script -sync -force -quiet 
+// a (ck): Critical Messages: addNotify
+// aI (ck): Generate Output Products: addNotify
+// Elapsed time: 28 seconds
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: generate_target all [get_files  D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: Wrote  : <D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 835 MB (+72527kb) [00:01:10]
+// Tcl Message: VHDL Output written to : D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . 
+// Tcl Message: Exporting to file D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1047.641 ; gain = 106.363 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_processing_system7_0_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 design_1_processing_system7_0_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 16 13:42:34 2018] Launched design_1_processing_system7_0_0_synth_1... Run output will be captured here: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.runs/design_1_processing_system7_0_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 870 MB. GUI used memory: 47 MB. Current time: 11/16/18 1:42:38 PM CET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 43 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces]", 1); // i (O, ck)
+// TclEventType: DG_GRAPH_GENERATED
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces]", 1); // i (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (Q, A): TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+// TclEventType: RUN_RESET
+dismissDialog("Launch Runs"); // f (ck)
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 82 MB (+1993kb) [00:02:06]
+// Tcl Message: [Fri Nov 16 13:43:03 2018] Launched design_1_processing_system7_0_0_synth_1, synth_1... Run output will be captured here: design_1_processing_system7_0_0_synth_1: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.runs/design_1_processing_system7_0_0_synth_1/runme.log synth_1: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.runs/synth_1/runme.log [Fri Nov 16 13:43:03 2018] Launched impl_1... Run output will be captured here: D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 879 MB (+1730kb) [00:03:11]
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 895 MB. GUI used memory: 56 MB. Current time: 11/16/18 1:44:13 PM CET
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 87 MB (+556kb) [00:04:07]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 284 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 1,007 MB (+88770kb) [00:06:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 56 MB. Current time: 11/16/18 1:47:53 PM CET
+// [Engine Memory]: 1,166 MB (+113582kb) [00:07:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,227 MB. GUI used memory: 56 MB. Current time: 11/16/18 1:48:08 PM CET
+// [Engine Memory]: 1,240 MB (+16562kb) [00:07:13]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,613 MB (+325500kb) [00:07:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,613 MB. GUI used memory: 56 MB. Current time: 11/16/18 1:48:15 PM CET
+// [GUI Memory]: 94 MB (+2976kb) [00:07:19]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.3s
+// Device: addNotify
+// DeviceView Instantiated
+// [Engine Memory]: 1,703 MB (+10704kb) [00:07:22]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7z010clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.348 . Memory (MB): peak = 1809.063 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.348 . Memory (MB): peak = 1809.063 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// ExpRunCommands.openImplResults elapsed time: 32.6s
+// TclEventType: DRC_ADDED
+// Device view-level: 0,0
+// Tcl Message: open_run: Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 1884.969 ; gain = 814.063 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 106 MB (+8062kb) [00:07:27]
+// 'dP' command handler elapsed time: 36 seconds
+// Elapsed time: 37 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)
+// [GUI Memory]: 113 MB (+861kb) [00:07:28]
+// [GUI Memory]: 119 MB (+558kb) [00:08:15]
+// Elapsed time: 83 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ck): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_No", "No"); // JButton (A, H)
+selectComboBox(PAResourceItoN.NewExportHardwareDialog_EXPORT_TO, "Choose Location...", 1); // e (Q, X)
+// Elapsed time: 41 seconds
+setFolderChooser("D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 49 seconds
+dismissDialog("Export Hardware"); // X (ck)
+// Tcl Message: file copy -force D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.runs/impl_1/design_1_wrapper.sysdef D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ck): Launch SDK: addNotify
+selectComboBox(PAResourceItoN.NewLaunchHardwareDialog_LOCATION_OF_HARDWARE_DESCRIPTION_FILE, "Choose Location...", 1); // e (Q, aa)
+setFolderChooser("D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2");
+selectComboBox(PAResourceItoN.NewLaunchHardwareDialog_WORKSPACE, "Choose Location...", 1); // e (Q, aa)
+setFolderChooser("D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 8 seconds
+// [GUI Memory]: 127 MB (+1792kb) [00:09:57]
+dismissDialog("Launch SDK"); // aa (ck)
+// Tcl Message: launch_sdk -workspace D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2 -hwspec D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2 -hwspec D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/sdk2/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,763 MB. GUI used memory: 94 MB. Current time: 11/16/18 1:50:58 PM CET
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_PORTS_WINDOW, "I/O Ports"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_PORTS_WINDOW
+// [GUI Memory]: 133 MB (+396kb) [00:23:06]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2037 ms. Increasing delay to 3000 ms.
+// [GUI Memory]: 141 MB (+1127kb) [00:35:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,763 MB. GUI used memory: 95 MB. Current time: 11/16/18 2:20:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,763 MB. GUI used memory: 90 MB. Current time: 11/16/18 2:50:59 PM CET
+// Elapsed time: 3841 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (ck):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/FPGA/hardware/Olimex_RGB_Matrix/matrix_vc/matrix_vc.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bx (ck)
+// PAPropertyPanels.initPanels (processing_system7_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+// cl (r): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ch, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ch, r)
+// [GUI Memory]: 156 MB (+8629kb) [01:14:20]
+expandTreeTable(PAResourceItoN.MIOTablePagePanel_MIO_TABLE, (String) null, 10); // bt (O, r)
+selectButton("ss[0]", "ss[0]"); // aH (bt, r)
+selectButton("ss[0]", "ss[0]"); // aH (bt, r)
+// [GUI Memory]: 176 MB (+12292kb) [01:14:30]
+// [GUI Memory]: 193 MB (+8935kb) [01:15:10]
+// Elapsed time: 46 seconds
+selectButton("SPI1", "SPI1"); // aH (bt, r)
+selectButton("SPI1", "SPI1"); // aH (bt, r)
+selectButton("SPI1", "SPI1"); // aH (bt, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// [GUI Memory]: 204 MB (+812kb) [01:27:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,763 MB. GUI used memory: 133 MB. Current time: 11/16/18 3:21:00 PM CET

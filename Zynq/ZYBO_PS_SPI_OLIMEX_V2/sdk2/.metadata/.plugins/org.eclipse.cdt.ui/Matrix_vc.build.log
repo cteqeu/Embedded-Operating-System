@@ -1,0 +1,161 @@
+15:35:21 **** Incremental Build of configuration Debug for project Matrix_vc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matrixvc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrixvc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -v -I../../Matrix_vc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/matrixvc.d" -MT"src/matrixvc.o" -o "src/matrixvc.o" "../src/matrixvc.c"
+Using built-in specs.
+COLLECT_GCC=arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-linux/snapshots/gcc-linaro-7.2-2017.11-rc1/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-threads=no --enable-multilib --disable-multiarch --with-multilib-list=aprofile --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/arm-none-eabi/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/arm-none-eabi/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11-rc1) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/matrixvc.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/matrixvc.d' '-MT' 'src/matrixvc.o' '-o' 'src/matrixvc.o'
+ c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/7.2.1/cc1.exe -quiet -v -I ../../Matrix_vc_bsp/ps7_cortexa9_0/include -imultilib v7-a/fpv3/hard -iprefix c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc -MMD src/matrixvc.d -MF src/matrixvc.d -MP -MT src/matrixvc.o -MT src/matrixvc.o -dD -D__USES_INITFINI__ ../src/matrixvc.c -quiet -dumpbase matrixvc.c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -auxbase-strip src/matrixvc.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\20002890\AppData\Local\Temp\ccB8OyFq.s
+GNU C11 (Linaro GCC 7.2-2017.11-rc1) version 7.2.1 20171011 (arm-none-eabi)
+	compiled by GNU C version 4.8.0, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/lib/gcc/arm-none-eabi/7.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ ../../Matrix_vc_bsp/ps7_cortexa9_0/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC 7.2-2017.11-rc1) version 7.2.1 20171011 (arm-none-eabi)
+	compiled by GNU C version 4.8.0, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 04615d3aa16c8b990d5cb4a3d55c51b5
+In file included from ../src/Matrix.h:19:0,
+                 from ../src/lcd8x8rgb.h:20,
+                 from ../src/matrixvc.c:7:
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../../Matrix_vc_bsp/ps7_cortexa9_0/include/xgpiops.h:122:0,
+                 from ../src/matrixvc.c:3:
+../src/lcd8x8rgb.h: In function 'InitMatrix':
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/lcd8x8rgb.h:69:15: note: in expansion of macro 'XST_FAILURE'
+        return XST_FAILURE;
+               ^~~~~~~~~~~
+In file included from ../src/matrixvc.c:7:0:
+../src/lcd8x8rgb.h:60:6: note: declared here
+ void InitMatrix()
+      ^~~~~~~~~~
+In file included from ../../Matrix_vc_bsp/ps7_cortexa9_0/include/xgpiops.h:122:0,
+                 from ../src/matrixvc.c:3:
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/lcd8x8rgb.h:75:15: note: in expansion of macro 'XST_FAILURE'
+        return XST_FAILURE;
+               ^~~~~~~~~~~
+In file included from ../src/matrixvc.c:7:0:
+../src/lcd8x8rgb.h:60:6: note: declared here
+ void InitMatrix()
+      ^~~~~~~~~~
+In file included from ../../Matrix_vc_bsp/ps7_cortexa9_0/include/xgpiops.h:122:0,
+                 from ../src/matrixvc.c:3:
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/lcd8x8rgb.h:83:15: note: in expansion of macro 'XST_FAILURE'
+        return XST_FAILURE;
+               ^~~~~~~~~~~
+In file included from ../src/matrixvc.c:7:0:
+../src/lcd8x8rgb.h:60:6: note: declared here
+ void InitMatrix()
+      ^~~~~~~~~~
+In file included from ../src/matrixvc.c:7:0:
+../src/lcd8x8rgb.h: In function 'scrollCharRight':
+../src/lcd8x8rgb.h:367:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+       b = FontLookup[c-32][k];
+                           ^
+../src/matrixvc.c: In function 'main':
+../src/matrixvc.c:63:56: warning: "/*" within comment [-Wcomment]
+        *  #define XSPIPS_MASTER_OPTION    0x00000001U  /**< Master mode option
+                                                         
+../src/matrixvc.c:64:58: warning: "/*" within comment [-Wcomment]
+    *  #define XSPIPS_CLK_ACTIVE_LOW_OPTION  0x00000002U  /**< Active Low Clock option
+                                                           
+../src/matrixvc.c:65:54: warning: "/*" within comment [-Wcomment]
+     #define XSPIPS_CLK_PHASE_1_OPTION   0x00000004U  /**< Clock Phase one option
+                                                       
+../src/matrixvc.c:66:56: warning: "/*" within comment [-Wcomment]
+     #define XSPIPS_DECODE_SSELECT_OPTION  0x00000008U  /**< Select 16 slaves Option
+                                                         
+../src/matrixvc.c:67:55: warning: "/*" within comment [-Wcomment]
+     #define XSPIPS_FORCE_SSELECT_OPTION   0x00000010U /**< Force Slave Select
+                                                        
+../src/matrixvc.c:68:54: warning: "/*" within comment [-Wcomment]
+     #define XSPIPS_MANUAL_START_OPTION   0x00000020U /**< Manual Start mode option
+                                                       
+../src/matrixvc.c:141:24: warning: passing argument 1 of 'XSpiPs_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+        XSpiPs_Transfer(&SpiInstancePtr, &WriteData[i], NULL,1);
+                        ^
+In file included from ../src/matrixvc.c:6:0:
+../../Matrix_vc_bsp/ps7_cortexa9_0/include/xspips.h:665:5: note: expected 'XSpiPs * {aka struct <anonymous> *}' but argument is of type 'XSpiPs ** {aka struct <anonymous> **}'
+ s32 XSpiPs_Transfer(XSpiPs *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~~~
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/matrixvc.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/matrixvc.d' '-MT' 'src/matrixvc.o' '-o' 'src/matrixvc.o'
+ c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -I ../../Matrix_vc_bsp/ps7_cortexa9_0/include -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o src/matrixvc.o C:\Users\20002890\AppData\Local\Temp\ccB8OyFq.s
+GNU assembler version 2.29.1 (arm-none-eabi) using BFD version (Linaro_Binutils-) 2.29.1.20171214
+COMPILER_PATH=c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/7.2.1/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/matrixvc.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/matrixvc.d' '-MT' 'src/matrixvc.o' '-o' 'src/matrixvc.o'
+'Finished building: ../src/matrixvc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -v -I../../Matrix_vc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Using built-in specs.
+COLLECT_GCC=arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-linux/snapshots/gcc-linaro-7.2-2017.11-rc1/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-threads=no --enable-multilib --disable-multiarch --with-multilib-list=aprofile --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/arm-none-eabi/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/arm-none-eabi/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11-rc1) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/platform.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/platform.d' '-MT' 'src/platform.o' '-o' 'src/platform.o'
+ c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/7.2.1/cc1.exe -quiet -v -I ../../Matrix_vc_bsp/ps7_cortexa9_0/include -imultilib v7-a/fpv3/hard -iprefix c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/ -isysroot c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc -MMD src/platform.d -MF src/platform.d -MP -MT src/platform.o -MT src/platform.o -dD -D__USES_INITFINI__ ../src/platform.c -quiet -dumpbase platform.c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -auxbase-strip src/platform.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\20002890\AppData\Local\Temp\ccKe7Uq7.s
+GNU C11 (Linaro GCC 7.2-2017.11-rc1) version 7.2.1 20171011 (arm-none-eabi)
+	compiled by GNU C version 4.8.0, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/arm/arm-none-eabi/builds/destdir/x86_64-w64-mingw32/lib/gcc/arm-none-eabi/7.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ ../../Matrix_vc_bsp/ps7_cortexa9_0/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include
+ c:\xilinx\sdk\2018.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../arm-none-eabi/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC 7.2-2017.11-rc1) version 7.2.1 20171011 (arm-none-eabi)
+	compiled by GNU C version 4.8.0, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 04615d3aa16c8b990d5cb4a3d55c51b5
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/platform.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/platform.d' '-MT' 'src/platform.o' '-o' 'src/platform.o'
+ c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/as.exe -v -I ../../Matrix_vc_bsp/ps7_cortexa9_0/include -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3 -meabi=5 -o src/platform.o C:\Users\20002890\AppData\Local\Temp\ccKe7Uq7.s
+GNU assembler version 2.29.1 (arm-none-eabi) using BFD version (Linaro_Binutils-) 2.29.1.20171214
+COMPILER_PATH=c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/7.2.1/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../libexec/gcc/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/;c:/xilinx/sdk/2018.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-g3' '-c' '-fmessage-length=0' '-MT' 'src/platform.o' '-mcpu=cortex-a9' '-mfpu=vfpv3' '-mfloat-abi=hard' '-v' '-I' '../../Matrix_vc_bsp/ps7_cortexa9_0/include' '-MMD' '-MP' '-MF' 'src/platform.d' '-MT' 'src/platform.o' '-o' 'src/platform.o'
+'Finished building: ../src/platform.c'
+' '
+make: *** Er is geen regel om doel 'matrixvc.o' te maken, nodig voor 'Matrix_vc.elf'.  Gestopt.
+
+15:35:25 Build Finished (took 4s.287ms)
+

@@ -1,0 +1,8 @@
+15:16:57 **** Incremental Build of configuration Debug for project Matrix_vc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Er is niets te doen voor 'main-build'.
+
+15:16:59 Build Finished (took 1s.613ms)
+
