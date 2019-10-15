@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Tue Oct 15 14:43:31 2019
+# Process ID: 39384
+# Current directory: C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 398.723 ; gain = 29.973
+Command: synth_design -top design_1_wrapper -part xc7z007sclg225-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 99300 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 823.242 ; gain = 177.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:21]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:25]
+INFO: [Synth 8-3491] module 'design_1_HC_SR04_0_0' declared at 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_HC_SR04_0_0_stub.vhdl:5' bound to instance 'HC_SR04_0' of component 'design_1_HC_SR04_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'design_1_HC_SR04_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_HC_SR04_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_clk_wiz_0_0' declared at 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'design_1_clk_wiz_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_clk_wiz_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_vhdlnoclk_0_0' declared at 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_vhdlnoclk_0_0_stub.vhdl:5' bound to instance 'vhdlnoclk_0' of component 'design_1_vhdlnoclk_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'design_1_vhdlnoclk_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_vhdlnoclk_0_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'design_1_vio_0_0' declared at 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_vio_0_0_stub.vhdl:5' bound to instance 'vio_0' of component 'design_1_vio_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'design_1_vio_0_0' [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/.Xil/Vivado-39384-PF1K6K4W/realtime/design_1_vio_0_0_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (1#1) [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/synth/design_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (2#1) [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 887.551 ; gain = 241.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 887.551 ; gain = 241.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 887.551 ; gain = 241.531
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0_in_context.xdc] for cell 'design_1_i/vhdlnoclk_0'
+Finished Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0_in_context.xdc] for cell 'design_1_i/vhdlnoclk_0'
+Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_HC_SR04_0_0/design_1_HC_SR04_0_0/design_1_HC_SR04_0_0_in_context.xdc] for cell 'design_1_i/HC_SR04_0'
+Finished Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_HC_SR04_0_0/design_1_HC_SR04_0_0/design_1_HC_SR04_0_0_in_context.xdc] for cell 'design_1_i/HC_SR04_0'
+Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0/design_1_vio_0_0_in_context.xdc] for cell 'design_1_i/vio_0'
+Finished Parsing XDC File [c:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0/design_1_vio_0_0_in_context.xdc] for cell 'design_1_i/vio_0'
+Parsing XDC File [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/constrs_1/new/MiniZED_AXI_HC_SR04.xdc]
+WARNING: [Vivado 12-508] No pins matched 'design_1_i/vhdlnoclk_0/U0/STARTUPE2_inst/CFGMCLK'. [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/constrs_1/new/MiniZED_AXI_HC_SR04.xdc:6]
+Finished Parsing XDC File [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/constrs_1/new/MiniZED_AXI_HC_SR04.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/constrs_1/new/MiniZED_AXI_HC_SR04.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.srcs/constrs_1/new/MiniZED_AXI_HC_SR04.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 936.133 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 936.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 936.133 ; gain = 290.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 936.133 ; gain = 290.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/vhdlnoclk_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/HC_SR04_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/vio_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 936.133 ; gain = 290.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 936.133 ; gain = 290.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 936.133 ; gain = 290.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/clk_wiz_0/clk_in1' to pin 'design_1_i/vhdlnoclk_0/bbstub_clk65MHz/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/clk_wiz_0/clk100MHz' to pin 'design_1_i/clk_wiz_0/bbstub_clk100MHz/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'design_1_i/clk_wiz_0/clk_in1' to 'design_1_i/vhdlnoclk_0/bbstub_clk65MHz/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 966.082 ; gain = 320.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 966.082 ; gain = 320.063
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 975.605 ; gain = 329.586
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------+----------+
+|      |BlackBox name          |Instances |
++------+-----------------------+----------+
+|1     |design_1_HC_SR04_0_0   |         1|
+|2     |design_1_clk_wiz_0_0   |         1|
+|3     |design_1_vhdlnoclk_0_0 |         1|
+|4     |design_1_vio_0_0       |         1|
++------+-----------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |design_1_HC_SR04_0_0_bbox_0   |     1|
+|2     |design_1_clk_wiz_0_0_bbox_1   |     1|
+|3     |design_1_vhdlnoclk_0_0_bbox_2 |     1|
+|4     |design_1_vio_0_0_bbox_3       |     1|
+|5     |IBUF                          |     1|
+|6     |OBUF                          |     1|
++------+------------------------------+------+
+
+Report Instance Areas: 
++------+-------------+---------+------+
+|      |Instance     |Module   |Cells |
++------+-------------+---------+------+
+|1     |top          |         |    21|
+|2     |  design_1_i |design_1 |    19|
++------+-------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 991.406 ; gain = 296.805
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 991.406 ; gain = 345.387
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1003.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1003.125 ; gain = 604.402
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1003.125 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/devWorks/MiniZED_AXI_HC_SR04/MiniZED_AXI_HC_SR04.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 15 14:44:24 2019...

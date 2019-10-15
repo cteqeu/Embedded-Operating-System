@@ -1,0 +1,172 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3C8B90163C8B9016",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "vhdlnoclk_0": "",
+      "clk_wiz_0": "",
+      "HC_SR04_0": "",
+      "vio_0": ""
+    },
+    "ports": {
+      "sonar_echo_0": {
+        "direction": "I"
+      },
+      "sonar_trig_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "153.84"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "147.748"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "109.791"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "100"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "clk100MHz"
+          },
+          "ENABLE_CLOCK_MONITOR": {
+            "value": "false"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "15.385"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "9.750"
+          },
+          "PRIMITIVE": {
+            "value": "MMCM"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "65"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "HC_SR04_0": {
+        "vlnv": "xilinx.com:module_ref:HC_SR04:1.0",
+        "xci_name": "design_1_HC_SR04_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HC_SR04",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "sonar_trig": {
+            "direction": "O"
+          },
+          "sonar_echo": {
+            "direction": "I"
+          },
+          "centimeter": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "design_1_vio_0_0",
+        "parameters": {
+          "C_NUM_PROBE_OUT": {
+            "value": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk100MHz": {
+        "ports": [
+          "clk_wiz_0/clk100MHz",
+          "HC_SR04_0/clk",
+          "vio_0/clk"
+        ]
+      },
+      "sonar_echo_0_1": {
+        "ports": [
+          "sonar_echo_0",
+          "HC_SR04_0/sonar_echo"
+        ]
+      },
+      "HC_SR04_0_sonar_trig": {
+        "ports": [
+          "HC_SR04_0/sonar_trig",
+          "sonar_trig_0"
+        ]
+      },
+      "HC_SR04_0_centimeter": {
+        "ports": [
+          "HC_SR04_0/centimeter",
+          "vio_0/probe_in0"
+        ]
+      }
+    }
+  }
+}

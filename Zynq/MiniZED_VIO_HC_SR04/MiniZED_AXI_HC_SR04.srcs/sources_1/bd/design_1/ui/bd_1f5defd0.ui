@@ -1,0 +1,20 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port sonar_echo_0 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port sonar_trig_0 -pg 1 -lvl 5 -x 940 -y 100 -defaultsOSRD
+preplace inst vhdlnoclk_0 -pg 1 -lvl 1 -x 120 -y 60 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 330 -y 60 -defaultsOSRD
+preplace inst HC_SR04_0 -pg 1 -lvl 3 -x 570 -y 110 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 4 -x 820 -y 170 -defaultsOSRD
+preplace netloc vhdlnoclk_0_clk65MHz 1 1 1 NJ 60
+preplace netloc clk_wiz_0_clk100MHz 1 2 2 430 40 720
+preplace netloc sonar_echo_0_1 1 0 3 NJ 120 NJ 120 NJ
+preplace netloc HC_SR04_0_sonar_trig 1 3 2 NJ 100 NJ
+preplace netloc HC_SR04_0_centimeter 1 3 1 710 120n
+levelinfo -pg 1 0 120 330 570 820 940
+pagesize -pg 1 -db -bbox -sgen -140 0 1070 240
+"
+}
+
