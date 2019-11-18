@@ -1,0 +1,1102 @@
+22:00:40 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+../src/trcKernelPort.c: In function 'cortex_a9_enter_critical':
+../src/trcKernelPort.c:308:14: error: 'uiTraceSystemState' undeclared (first use in this function); did you mean 'uxTaskGetSystemState'?
+     else if (uiTraceSystemState == TRC_STATE_IN_TASKSWITCH)
+              ^~~~~~~~~~~~~~~~~~
+              uxTaskGetSystemState
+../src/trcKernelPort.c:308:14: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:32: src/trcKernelPort.o] Error 1
+22:01:58 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+'Finished building: ../src/trcKernelPort.c'
+' '
+'Building file: ../src/trcSnapshotRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcSnapshotRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcSnapshotRecorder.d" -MT"src/trcSnapshotRecorder.o" -o "src/trcSnapshotRecorder.o" "../src/trcSnapshotRecorder.c"
+'Finished building: ../src/trcSnapshotRecorder.c'
+' '
+'Building file: ../src/trcStreamingRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcStreamingRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcStreamingRecorder.d" -MT"src/trcStreamingRecorder.o" -o "src/trcStreamingRecorder.o" "../src/trcStreamingRecorder.c"
+'Finished building: ../src/trcStreamingRecorder.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/event_groups.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/event_groups.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/event_groups.d" -MT"freertos10_xilinx_v1_3/src/event_groups.o" -o "freertos10_xilinx_v1_3/src/event_groups.o" "../freertos10_xilinx_v1_3/src/event_groups.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/event_groups.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/heap_4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/heap_4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/heap_4.d" -MT"freertos10_xilinx_v1_3/src/heap_4.o" -o "freertos10_xilinx_v1_3/src/heap_4.o" "../freertos10_xilinx_v1_3/src/heap_4.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/heap_4.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/inbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/inbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/inbyte.d" -MT"freertos10_xilinx_v1_3/src/inbyte.o" -o "freertos10_xilinx_v1_3/src/inbyte.o" "../freertos10_xilinx_v1_3/src/inbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/inbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/list.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/list.d" -MT"freertos10_xilinx_v1_3/src/list.o" -o "freertos10_xilinx_v1_3/src/list.o" "../freertos10_xilinx_v1_3/src/list.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/list.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/outbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/outbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/outbyte.d" -MT"freertos10_xilinx_v1_3/src/outbyte.o" -o "freertos10_xilinx_v1_3/src/outbyte.o" "../freertos10_xilinx_v1_3/src/outbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/outbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port.d" -MT"freertos10_xilinx_v1_3/src/port.o" -o "freertos10_xilinx_v1_3/src/port.o" "../freertos10_xilinx_v1_3/src/port.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/port.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portASM.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portASM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portASM.d" -MT"freertos10_xilinx_v1_3/src/portASM.o" -o "freertos10_xilinx_v1_3/src/portASM.o" "../freertos10_xilinx_v1_3/src/portASM.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/portASM.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portZynq7000.d" -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -o "freertos10_xilinx_v1_3/src/portZynq7000.o" "../freertos10_xilinx_v1_3/src/portZynq7000.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port_asm_vectors.d" -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -o "freertos10_xilinx_v1_3/src/port_asm_vectors.o" "../freertos10_xilinx_v1_3/src/port_asm_vectors.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/queue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/queue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/queue.d" -MT"freertos10_xilinx_v1_3/src/queue.o" -o "freertos10_xilinx_v1_3/src/queue.o" "../freertos10_xilinx_v1_3/src/queue.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/queue.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/tasks.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/tasks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/tasks.d" -MT"freertos10_xilinx_v1_3/src/tasks.o" -o "freertos10_xilinx_v1_3/src/tasks.o" "../freertos10_xilinx_v1_3/src/tasks.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/tasks.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/timers.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/timers.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/timers.d" -MT"freertos10_xilinx_v1_3/src/timers.o" -o "freertos10_xilinx_v1_3/src/timers.o" "../freertos10_xilinx_v1_3/src/timers.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/timers.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132728	   3408	  96160	 232296	  38b68	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:02:34 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:02:34 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+../src/trcKernelPort.c:48:2: error: #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+ #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+  ^~~~~
+make: *** [src/subdir.mk:32: src/trcKernelPort.o] Error 1
+22:02:37 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:02:38 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+../src/trcKernelPort.c:48:2: error: #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+ #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+  ^~~~~
+make: *** [src/subdir.mk:32: src/trcKernelPort.o] Error 1
+22:03:20 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:03:20 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+../src/trcKernelPort.c:48:2: error: #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+ #error Trace Recorder: You need to include trcRecorder.h at the end of your FreeRTOSConfig.h!
+  ^~~~~
+make: *** [src/subdir.mk:32: src/trcKernelPort.o] Error 1
+22:04:19 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:04:20 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+'Finished building: ../src/trcKernelPort.c'
+' '
+'Building file: ../src/trcSnapshotRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcSnapshotRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcSnapshotRecorder.d" -MT"src/trcSnapshotRecorder.o" -o "src/trcSnapshotRecorder.o" "../src/trcSnapshotRecorder.c"
+'Finished building: ../src/trcSnapshotRecorder.c'
+' '
+'Building file: ../src/trcStreamingRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcStreamingRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcStreamingRecorder.d" -MT"src/trcStreamingRecorder.o" -o "src/trcStreamingRecorder.o" "../src/trcStreamingRecorder.c"
+'Finished building: ../src/trcStreamingRecorder.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/event_groups.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/event_groups.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/event_groups.d" -MT"freertos10_xilinx_v1_3/src/event_groups.o" -o "freertos10_xilinx_v1_3/src/event_groups.o" "../freertos10_xilinx_v1_3/src/event_groups.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/event_groups.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/heap_4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/heap_4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/heap_4.d" -MT"freertos10_xilinx_v1_3/src/heap_4.o" -o "freertos10_xilinx_v1_3/src/heap_4.o" "../freertos10_xilinx_v1_3/src/heap_4.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/heap_4.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/inbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/inbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/inbyte.d" -MT"freertos10_xilinx_v1_3/src/inbyte.o" -o "freertos10_xilinx_v1_3/src/inbyte.o" "../freertos10_xilinx_v1_3/src/inbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/inbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/list.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/list.d" -MT"freertos10_xilinx_v1_3/src/list.o" -o "freertos10_xilinx_v1_3/src/list.o" "../freertos10_xilinx_v1_3/src/list.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/list.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/outbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/outbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/outbyte.d" -MT"freertos10_xilinx_v1_3/src/outbyte.o" -o "freertos10_xilinx_v1_3/src/outbyte.o" "../freertos10_xilinx_v1_3/src/outbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/outbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port.d" -MT"freertos10_xilinx_v1_3/src/port.o" -o "freertos10_xilinx_v1_3/src/port.o" "../freertos10_xilinx_v1_3/src/port.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/port.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portASM.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portASM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portASM.d" -MT"freertos10_xilinx_v1_3/src/portASM.o" -o "freertos10_xilinx_v1_3/src/portASM.o" "../freertos10_xilinx_v1_3/src/portASM.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/portASM.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portZynq7000.d" -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -o "freertos10_xilinx_v1_3/src/portZynq7000.o" "../freertos10_xilinx_v1_3/src/portZynq7000.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port_asm_vectors.d" -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -o "freertos10_xilinx_v1_3/src/port_asm_vectors.o" "../freertos10_xilinx_v1_3/src/port_asm_vectors.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/queue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/queue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/queue.d" -MT"freertos10_xilinx_v1_3/src/queue.o" -o "freertos10_xilinx_v1_3/src/queue.o" "../freertos10_xilinx_v1_3/src/queue.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/queue.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/tasks.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/tasks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/tasks.d" -MT"freertos10_xilinx_v1_3/src/tasks.o" -o "freertos10_xilinx_v1_3/src/tasks.o" "../freertos10_xilinx_v1_3/src/tasks.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/tasks.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/timers.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/timers.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/timers.d" -MT"freertos10_xilinx_v1_3/src/timers.o" -o "freertos10_xilinx_v1_3/src/timers.o" "../freertos10_xilinx_v1_3/src/timers.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/timers.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132728	   3408	  96160	 232296	  38b68	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:04:42 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:04:43 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+'Finished building: ../src/trcKernelPort.c'
+' '
+'Building file: ../src/trcSnapshotRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcSnapshotRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcSnapshotRecorder.d" -MT"src/trcSnapshotRecorder.o" -o "src/trcSnapshotRecorder.o" "../src/trcSnapshotRecorder.c"
+'Finished building: ../src/trcSnapshotRecorder.c'
+' '
+'Building file: ../src/trcStreamingRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcStreamingRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcStreamingRecorder.d" -MT"src/trcStreamingRecorder.o" -o "src/trcStreamingRecorder.o" "../src/trcStreamingRecorder.c"
+'Finished building: ../src/trcStreamingRecorder.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/event_groups.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/event_groups.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/event_groups.d" -MT"freertos10_xilinx_v1_3/src/event_groups.o" -o "freertos10_xilinx_v1_3/src/event_groups.o" "../freertos10_xilinx_v1_3/src/event_groups.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/event_groups.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/heap_4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/heap_4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/heap_4.d" -MT"freertos10_xilinx_v1_3/src/heap_4.o" -o "freertos10_xilinx_v1_3/src/heap_4.o" "../freertos10_xilinx_v1_3/src/heap_4.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/heap_4.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/inbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/inbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/inbyte.d" -MT"freertos10_xilinx_v1_3/src/inbyte.o" -o "freertos10_xilinx_v1_3/src/inbyte.o" "../freertos10_xilinx_v1_3/src/inbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/inbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/list.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/list.d" -MT"freertos10_xilinx_v1_3/src/list.o" -o "freertos10_xilinx_v1_3/src/list.o" "../freertos10_xilinx_v1_3/src/list.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/list.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/outbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/outbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/outbyte.d" -MT"freertos10_xilinx_v1_3/src/outbyte.o" -o "freertos10_xilinx_v1_3/src/outbyte.o" "../freertos10_xilinx_v1_3/src/outbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/outbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port.d" -MT"freertos10_xilinx_v1_3/src/port.o" -o "freertos10_xilinx_v1_3/src/port.o" "../freertos10_xilinx_v1_3/src/port.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/port.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portASM.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portASM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portASM.d" -MT"freertos10_xilinx_v1_3/src/portASM.o" -o "freertos10_xilinx_v1_3/src/portASM.o" "../freertos10_xilinx_v1_3/src/portASM.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/portASM.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portZynq7000.d" -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -o "freertos10_xilinx_v1_3/src/portZynq7000.o" "../freertos10_xilinx_v1_3/src/portZynq7000.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port_asm_vectors.d" -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -o "freertos10_xilinx_v1_3/src/port_asm_vectors.o" "../freertos10_xilinx_v1_3/src/port_asm_vectors.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/queue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/queue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/queue.d" -MT"freertos10_xilinx_v1_3/src/queue.o" -o "freertos10_xilinx_v1_3/src/queue.o" "../freertos10_xilinx_v1_3/src/queue.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/queue.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/tasks.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/tasks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/tasks.d" -MT"freertos10_xilinx_v1_3/src/tasks.o" -o "freertos10_xilinx_v1_3/src/tasks.o" "../freertos10_xilinx_v1_3/src/tasks.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/tasks.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/timers.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/timers.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/timers.d" -MT"freertos10_xilinx_v1_3/src/timers.o" -o "freertos10_xilinx_v1_3/src/timers.o" "../freertos10_xilinx_v1_3/src/timers.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/timers.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132728	   3408	  96160	 232296	  38b68	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:09:16 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132728	   3408	  96160	 232296	  38b68	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:11:01 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132728	   3408	  96160	 232296	  38b68	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:13:15 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:65:14: warning: unused variable 'cteq_event_string' [-Wunused-variable]
+  traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+              ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132744	   3408	  96160	 232312	  38b78	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:13:43 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:69:2: warning: implicit declaration of function 'vTracePrintf'; did you mean 'vTracePrint'? [-Wimplicit-function-declaration]
+  vTracePrintf("Hello from FreeRTOS example main trace\r\n");
+  ^~~~~~~~~~~~
+  vTracePrint
+../src/freertos_hello_world.c:65:14: warning: unused variable 'cteq_event_string' [-Wunused-variable]
+  traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+              ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/freertos_hello_world.o: in function `main':
+C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\Debug/../src/freertos_hello_world.c:69: undefined reference to `vTracePrintf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:42: FreeRTOS_Trace.elf] Error 1
+22:13:59 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:69:2: warning: implicit declaration of function 'vTracePrintf'; did you mean 'vTracePrint'? [-Wimplicit-function-declaration]
+  vTracePrintf(cteq_event_string,"Hello from FreeRTOS example main trace\r\n");
+  ^~~~~~~~~~~~
+  vTracePrint
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/freertos_hello_world.o: in function `main':
+C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\Debug/../src/freertos_hello_world.c:69: undefined reference to `vTracePrintf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:42: FreeRTOS_Trace.elf] Error 1
+22:14:19 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132856	   3408	  96160	 232424	  38be8	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:15:29 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:144:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:144:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:162:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:15:56 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:16:58 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:17:38 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:40: error: initializer element is not constant
+ static traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+                                        ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:17:50 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:42: error: initializer element is not constant
+ volatile traceString cteq_event_string = xTraceRegisterString("MyTraceChannel");
+                                          ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:19:12 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:63: error: expected expression before 'const'
+ volatile traceString cteq_event_string = xTraceRegisterString(const "MyTraceChannel");
+                                                               ^~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:19:20 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:54: error: expected expression before 'const'
+ traceString cteq_event_string = xTraceRegisterString(const "MyTraceChannel");
+                                                      ^~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:19:55 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:60:7: error: unknown type name 'string'
+ const string channelname = "MyTraceChannel";
+       ^~~~~~
+../src/freertos_hello_world.c:60:28: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+ const string channelname = "MyTraceChannel";
+                            ^~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:62:54: warning: passing argument 1 of 'xTraceRegisterString' makes pointer from integer without a cast [-Wint-conversion]
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                                      ^~~~~~~~~~~
+In file included from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOSConfig.h:151,
+                 from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOS.h:56,
+                 from ../src/freertos_hello_world.c:31:
+c:\users\20002890\minized_freertos_trace\minized_freertos_trace.sdk\freertos_trace\src\trcrecorder.h:301:46: note: expected 'const char *' but argument is of type 'int'
+ traceString xTraceRegisterString(const char* name);
+                                  ~~~~~~~~~~~~^~~~
+../src/freertos_hello_world.c:62:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:20:15 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:62:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:20:37 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:62:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:20:48 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:62:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:21:21 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:62:33: error: initializer element is not constant
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:25:18 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:69:14: error: 'cteq_event_string' undeclared (first use in this function)
+  vTracePrint(cteq_event_string,"Hello from FreeRTOS example main trace\r\n");
+              ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:69:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:144:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:162:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:25:24 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:69:14: warning: passing argument 1 of 'vTracePrint' makes integer from pointer without a cast [-Wint-conversion]
+  vTracePrint("Hello from FreeRTOS example main trace\r\n");
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOSConfig.h:151,
+                 from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOS.h:56,
+                 from ../src/freertos_hello_world.c:31:
+c:\users\20002890\minized_freertos_trace\minized_freertos_trace.sdk\freertos_trace\src\trcrecorder.h:265:30: note: expected 'traceString' {aka 'short unsigned int'} but argument is of type 'char *'
+ void vTracePrint(traceString chn, const char* str);
+                  ~~~~~~~~~~~~^~~
+../src/freertos_hello_world.c:69:2: error: too few arguments to function 'vTracePrint'
+  vTracePrint("Hello from FreeRTOS example main trace\r\n");
+  ^~~~~~~~~~~
+In file included from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOSConfig.h:151,
+                 from C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src/FreeRTOS.h:56,
+                 from ../src/freertos_hello_world.c:31:
+c:\users\20002890\minized_freertos_trace\minized_freertos_trace.sdk\freertos_trace\src\trcrecorder.h:265:6: note: declared here
+ void vTracePrint(traceString chn, const char* str);
+      ^~~~~~~~~~~
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:144:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:144:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:162:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:25:58 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:62:54: error: 'channelname' undeclared here (not in a function)
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                                      ^~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:26:22 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:68:54: error: 'channelname' undeclared (first use in this function)
+ traceString cteq_event_string = xTraceRegisterString(channelname);
+                                                      ^~~~~~~~~~~
+../src/freertos_hello_world.c:68:54: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:147:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:165:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:26:25 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'main':
+../src/freertos_hello_world.c:68:55: error: 'channelname' undeclared (first use in this function)
+  traceString cteq_event_string = xTraceRegisterString(channelname);
+                                                       ^~~~~~~~~~~
+../src/freertos_hello_world.c:68:55: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:147:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:165:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:26:34 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'prvTxTask':
+../src/freertos_hello_world.c:147:15: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrint(cteq_event_string,"In TX Task...\r\n");
+               ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:147:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:165:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:27:08 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:166:16: error: 'cteq_event_string' undeclared (first use in this function)
+   vTracePrintF(cteq_event_string,"Received: %s in RX Task ...\r\n", Recdstring);
+                ^~~~~~~~~~~~~~~~~
+../src/freertos_hello_world.c:166:16: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:27:24 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132976	   3408	  96160	 232544	  38c60	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:28:22 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'vTimerCallback':
+../src/freertos_hello_world.c:191:83: error: 'Recdstring' undeclared (first use in this function); did you mean 'HWstring'?
+   vTracePrintF(cteq_event_string_TimerCallback,"Received: %s in RX Task ...\r\n", Recdstring);
+                                                                                   ^~~~~~~~~~
+                                                                                   HWstring
+../src/freertos_hello_world.c:191:83: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:32: src/freertos_hello_world.o] Error 1
+22:28:31 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133056	   3408	  96160	 232624	  38cb0	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:28:59 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133152	   3408	  96160	 232720	  38d10	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:36:35 **** Clean-only build of configuration Debug for project FreeRTOS_Trace ****
+make clean 
+rm -rf  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o  ./freertos10_xilinx_v1_3/src/portASM.d ./freertos10_xilinx_v1_3/src/port_asm_vectors.d  ./src/freertos_hello_world.d ./src/trcKernelPort.d ./src/trcSnapshotRecorder.d ./src/trcStreamingRecorder.d  ./freertos10_xilinx_v1_3/src/event_groups.d ./freertos10_xilinx_v1_3/src/heap_4.d ./freertos10_xilinx_v1_3/src/inbyte.d ./freertos10_xilinx_v1_3/src/list.d ./freertos10_xilinx_v1_3/src/outbyte.d ./freertos10_xilinx_v1_3/src/port.d ./freertos10_xilinx_v1_3/src/portZynq7000.d ./freertos10_xilinx_v1_3/src/queue.d ./freertos10_xilinx_v1_3/src/tasks.d ./freertos10_xilinx_v1_3/src/timers.d  FreeRTOS_Trace.elf.size  FreeRTOS_Trace.elf
+' '
+22:36:36 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../src/trcKernelPort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcKernelPort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcKernelPort.d" -MT"src/trcKernelPort.o" -o "src/trcKernelPort.o" "../src/trcKernelPort.c"
+'Finished building: ../src/trcKernelPort.c'
+' '
+'Building file: ../src/trcSnapshotRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcSnapshotRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcSnapshotRecorder.d" -MT"src/trcSnapshotRecorder.o" -o "src/trcSnapshotRecorder.o" "../src/trcSnapshotRecorder.c"
+'Finished building: ../src/trcSnapshotRecorder.c'
+' '
+'Building file: ../src/trcStreamingRecorder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/trcStreamingRecorder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/trcStreamingRecorder.d" -MT"src/trcStreamingRecorder.o" -o "src/trcStreamingRecorder.o" "../src/trcStreamingRecorder.c"
+'Finished building: ../src/trcStreamingRecorder.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/event_groups.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/event_groups.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/event_groups.d" -MT"freertos10_xilinx_v1_3/src/event_groups.o" -o "freertos10_xilinx_v1_3/src/event_groups.o" "../freertos10_xilinx_v1_3/src/event_groups.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/event_groups.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/heap_4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/heap_4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/heap_4.d" -MT"freertos10_xilinx_v1_3/src/heap_4.o" -o "freertos10_xilinx_v1_3/src/heap_4.o" "../freertos10_xilinx_v1_3/src/heap_4.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/heap_4.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/inbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/inbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/inbyte.d" -MT"freertos10_xilinx_v1_3/src/inbyte.o" -o "freertos10_xilinx_v1_3/src/inbyte.o" "../freertos10_xilinx_v1_3/src/inbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/inbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/list.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/list.d" -MT"freertos10_xilinx_v1_3/src/list.o" -o "freertos10_xilinx_v1_3/src/list.o" "../freertos10_xilinx_v1_3/src/list.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/list.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/outbyte.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/outbyte.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/outbyte.d" -MT"freertos10_xilinx_v1_3/src/outbyte.o" -o "freertos10_xilinx_v1_3/src/outbyte.o" "../freertos10_xilinx_v1_3/src/outbyte.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/outbyte.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port.d" -MT"freertos10_xilinx_v1_3/src/port.o" -o "freertos10_xilinx_v1_3/src/port.o" "../freertos10_xilinx_v1_3/src/port.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/port.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portASM.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portASM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portASM.d" -MT"freertos10_xilinx_v1_3/src/portASM.o" -o "freertos10_xilinx_v1_3/src/portASM.o" "../freertos10_xilinx_v1_3/src/portASM.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/portASM.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/portZynq7000.d" -MT"freertos10_xilinx_v1_3/src/portZynq7000.o" -o "freertos10_xilinx_v1_3/src/portZynq7000.o" "../freertos10_xilinx_v1_3/src/portZynq7000.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/portZynq7000.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/port_asm_vectors.d" -MT"freertos10_xilinx_v1_3/src/port_asm_vectors.o" -o "freertos10_xilinx_v1_3/src/port_asm_vectors.o" "../freertos10_xilinx_v1_3/src/port_asm_vectors.S"
+'Finished building: ../freertos10_xilinx_v1_3/src/port_asm_vectors.S'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/queue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/queue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/queue.d" -MT"freertos10_xilinx_v1_3/src/queue.o" -o "freertos10_xilinx_v1_3/src/queue.o" "../freertos10_xilinx_v1_3/src/queue.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/queue.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/tasks.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/tasks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/tasks.d" -MT"freertos10_xilinx_v1_3/src/tasks.o" -o "freertos10_xilinx_v1_3/src/tasks.o" "../freertos10_xilinx_v1_3/src/tasks.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/tasks.c'
+' '
+'Building file: ../freertos10_xilinx_v1_3/src/timers.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"freertos10_xilinx_v1_3/src/timers.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"freertos10_xilinx_v1_3/src/timers.d" -MT"freertos10_xilinx_v1_3/src/timers.o" -o "freertos10_xilinx_v1_3/src/timers.o" "../freertos10_xilinx_v1_3/src/timers.c"
+'Finished building: ../freertos10_xilinx_v1_3/src/timers.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133152	   3408	  96160	 232720	  38d10	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+22:39:13 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:39:53 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:44:41 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:45:24 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:46:05 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:47:06 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:50:43 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:51:32 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:52:18 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:53:37 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:54:28 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:55:54 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:56:55 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:59:52 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:03:05 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:06:01 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:07:04 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:08:34 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:10:51 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:11:53 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133152	   3408	  96160	 232720	  38d10	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+23:12:00 **** Auto Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I"C:\Users\20002890\MiniZED_FreeRTOS_Trace\MiniZED_FreeRTOS_Trace.sdk\FreeRTOS_Trace\freertos10_xilinx_v1_3\src" -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: FreeRTOS_Trace.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Trace_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Trace.elf"  ./src/freertos_hello_world.o ./src/trcKernelPort.o ./src/trcSnapshotRecorder.o ./src/trcStreamingRecorder.o  ./freertos10_xilinx_v1_3/src/event_groups.o ./freertos10_xilinx_v1_3/src/heap_4.o ./freertos10_xilinx_v1_3/src/inbyte.o ./freertos10_xilinx_v1_3/src/list.o ./freertos10_xilinx_v1_3/src/outbyte.o ./freertos10_xilinx_v1_3/src/port.o ./freertos10_xilinx_v1_3/src/portASM.o ./freertos10_xilinx_v1_3/src/portZynq7000.o ./freertos10_xilinx_v1_3/src/port_asm_vectors.o ./freertos10_xilinx_v1_3/src/queue.o ./freertos10_xilinx_v1_3/src/tasks.o ./freertos10_xilinx_v1_3/src/timers.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Trace.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Trace.elf  |tee "FreeRTOS_Trace.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133152	   3408	  96160	 232720	  38d10	FreeRTOS_Trace.elf
+'Finished building: FreeRTOS_Trace.elf.size'
+' '
+23:12:22 **** Incremental Build of configuration Debug for project FreeRTOS_Trace ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

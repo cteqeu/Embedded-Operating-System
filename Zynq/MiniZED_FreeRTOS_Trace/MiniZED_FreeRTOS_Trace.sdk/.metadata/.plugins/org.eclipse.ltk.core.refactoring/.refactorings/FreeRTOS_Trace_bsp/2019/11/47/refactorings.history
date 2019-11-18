@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS_Trace_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h&apos; to &apos;FreeRTOSConfigold.h&apos;" description="Rename resource &apos;FreeRTOSConfig.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ps7_cortexa9_0/include/FreeRTOSConfig.h" name="FreeRTOSConfigold.h" stamp="1574109032710" updateReferences="true"/>
+</session>

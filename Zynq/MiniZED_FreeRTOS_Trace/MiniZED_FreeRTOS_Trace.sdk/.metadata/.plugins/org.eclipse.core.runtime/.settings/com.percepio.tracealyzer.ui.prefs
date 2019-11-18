@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+rtosType=FreeRTOS
+sameFileHandling=Always launch new Tracelyzer
+traceBufferAddressExpression=RecorderDataPtr
+traceBufferSizeExpression=sizeof(*RecorderDataPtr)
+traceDirectory=C\:\\Github\\Own\\Embedded-Operating-System\\Zynq\\MiniZED_FreeRTOS_Trace\\MiniZED_FreeRTOS_Trace.sdk
+traceName=FreeRTOS_Trace_1
+tracealyzerPath=C\:\\Program Files\\Percepio\\Tracealyzer 4\\Tracealyzer.exe
+tracealyzerPreviousPaths=C\:\\Program Files\\Percepio\\Tracealyzer 4;C\:\\Program Files\\Percepio\\Tracealyzer 4\\Tracealyzer.exe

@@ -1,0 +1,5 @@
+1574108277632	Delete resource 'FreeRTOS_Trace/src/config'
+1574108281492	Delete resource 'FreeRTOS_Trace/src/include'
+1574109307734	Delete resource 'FreeRTOS_Trace_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h'
+1574109471741	Delete resource 'FreeRTOS_Trace_bsp/ps7_cortexa9_0/include/FreeRTOSConfigold.h'
+1574109883741	Delete resource 'FreeRTOS_Trace/src/FreeRTOSConfig.h'
