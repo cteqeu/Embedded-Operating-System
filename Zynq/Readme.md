@@ -1,6 +1,7 @@
 - FreeRTOS: Standard FreeRTOS Examples
 - MiniZED_BSP2019_minicore: bare minimum linux bsp for Vivado 2019 (MiniZED board)
 - MiniZED_VIO_HC_SR04: HC-SR04 ultrasonic sensor VHDL project with VIO core for testing the VHDL code
+- MiniZED_FreeRTOS_Trace: Perceptio Tracealyzer Example for Avnet MiniZED board (Xilinx Zynq)
 - ZYBO_LWIP_ECHO_NoOS: Zybo LWIP example without an operating system
 - ZYBO_PS_INPUT: Zybo processor input without using the programmable fabric (PL)
 - ZYBO_PS_SPI_Olimex: Olimex RGB Matrix project
